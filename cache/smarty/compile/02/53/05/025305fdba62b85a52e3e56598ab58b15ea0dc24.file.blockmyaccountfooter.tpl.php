@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 14:48:33
+<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 17:48:51
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\modules\blockmyaccountfooter\blockmyaccountfooter.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14534574d882181aaa6-21672332%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5160574e14d34dfec5-19153697%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14534574d882181aaa6-21672332',
+  'nocache_hash' => '5160574e14d34dfec5-19153697',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574d88218d6253_70806122',
+  'unifunc' => 'content_574e14d3568a89_25142936',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574d88218d6253_70806122')) {function content_574d88218d6253_70806122($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_574e14d3568a89_25142936')) {function content_574e14d3568a89_25142936($_smarty_tpl) {?>
 
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
