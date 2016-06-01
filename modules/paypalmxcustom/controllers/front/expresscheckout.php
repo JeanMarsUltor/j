@@ -21,6 +21,8 @@
  * Step 7: The transaction success or failure is sent to you by PayPal at the following URL: http://www.mystore.com/modules/paypalmx/controllers/front/expresscheckout.php?pp_exp_payment=1
  * Step 8: The customer is redirected to the Order confirmation page
  */
+ 
+ require_once("paypal_functions.php");
 
 
 class paypalmxcustomexpresscheckoutModuleFrontController extends ModuleFrontController
@@ -92,11 +94,22 @@ class paypalmxcustomexpresscheckoutModuleFrontController extends ModuleFrontCont
 		foreach ($this->context->cart->getProducts() as $product)
 		{
 			$productrounded = round($product['price_wt'],2);
+			/*
 			$nvp_request .= '&L_PAYMENTREQUEST_0_NAME'.$i.'='.urlencode($product['name']).
 					'&L_PAYMENTREQUEST_0_NUMBER'.$i.'='.urlencode((int)$product['id_product']).
 					'&L_PAYMENTREQUEST_0_DESC'.$i.'='.urlencode(strip_tags(Tools::truncate($product['description_short'], 80))).
 					'&L_PAYMENTREQUEST_0_AMT'.$i.'='.urlencode((float)$productrounded).
 					'&L_PAYMENTREQUEST_0_QTY'.$i.'='.urlencode((int)$product['cart_quantity']);
+					
+					
+					*/
+					
+					$paramsArray['L_PAYMENTREQUEST_0_NAME'.$i] = urlencode($product['name']);
+					$paramsArray['L_PAYMENTREQUEST_0_NUMBER'.$i] = urlencode((int)$product['id_product']);
+					$paramsArray['L_PAYMENTREQUEST_0_DESC'.$i] = urlencode(strip_tags(Tools::truncate($product['description_short'], 80)));
+					$paramsArray['L_PAYMENTREQUEST_0_AMT'.$i] = urlencode((float)$productrounded);
+					$paramsArray['L_PAYMENTREQUEST_0_QTY'.$i] = urlencode((int)$product['cart_quantity']);
+					
 					
 			$total += ((float)$productrounded * (int)$product['cart_quantity']);
 			$i++;
@@ -110,6 +123,14 @@ class paypalmxcustomexpresscheckoutModuleFrontController extends ModuleFrontCont
 			$nvp_request .= '&L_PAYMENTREQUEST_0_NAME'.$i.'='.urlencode($this->paypal_mx->l('Coupon')).
 					'&L_PAYMENTREQUEST_0_AMT'.$i.'='.urlencode((float)$cuponrounded).
 					'&L_PAYMENTREQUEST_0_QTY'.$i.'=1';
+					$paramsArray['L_PAYMENTREQUEST_0_QTY'.$i] = urlencode((int)$product['cart_quantity']);
+					
+					
+					$paramsArray['L_PAYMENTREQUEST_0_NAME'.$i] = urlencode($this->paypal_mx->l('Coupon'));
+					$paramsArray['L_PAYMENTREQUEST_0_AMT'.$i] = urlencode((float)$cuponrounded);
+					$paramsArray['L_PAYMENTREQUEST_0_QTY'.$i] = urlencode((int)$product['cart_quantity']);
+					
+					
 			$i++;
 			
 				}
@@ -119,10 +140,38 @@ class paypalmxcustomexpresscheckoutModuleFrontController extends ModuleFrontCont
 
 		/* Create a PayPal payment request and redirect the customer to PayPal (to log-in or to fill his/her credit card info) */
 		$currency = new Currency((int)$this->context->cart->id_currency);
-		$result = $this->paypal_mx->postToPayPal('SetExpressCheckout', (Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR') != '' ? '&CARTBORDERCOLOR='.Tools::substr(str_replace('#', '', Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR')), 0, 6) : '').'&PAYMENTREQUEST_0_AMT='.$totalToPay.'&PAYMENTREQUEST_0_PAYMENTACTION=Sale&RETURNURL='.urlencode($this->paypal_mx->getModuleLink('paypalmxcustom', 'expresscheckout', array('pp_exp_checkout' => 1,))).'&CANCELURL='.urlencode($this->context->link->getPageLink('order.php')).'&PAYMENTREQUEST_0_CURRENCYCODE='.urlencode($currency->iso_code).$nvp_request);
+		
+		/*
+		$result = $this->paypal_mx->postToPayPal('SetExpressCheckout', (Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR') != '' ? '&CARTBORDERCOLOR='.Tools::substr(str_replace('#', '', Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR')), 0, 6) : '').
+		'&PAYMENTREQUEST_0_AMT='.$totalToPay.
+		'&PAYMENTREQUEST_0_PAYMENTACTION=Sale'.
+		'&RETURNURL='.urlencode($this->paypal_mx->getModuleLink('paypalmxcustom', 'expresscheckout', array('pp_exp_checkout' => 1,))).
+		'&CANCELURL='.urlencode($this->context->link->getPageLink('order.php')).
+		'&PAYMENTREQUEST_0_CURRENCYCODE='.urlencode($currency->iso_code).$nvp_request);
+		
+		
+		*/
+		$paramsArray["PAYMENTREQUEST_0_ITEMAMT"] = (float)($total + $cuponrounded);
+		$paramsArray["PAYMENTREQUEST_0_AMT"] = $totalToPay;
+		$paramsArray["PAYMENTREQUEST_0_SHIPPINGAMT"] = urlencode($shipping);
+		$paramsArray["paymentType"] = "sale";
+		$paramsArray["currencyCodeType"] = urlencode($currency->iso_code);
+		$paramsArray["LOGOIMG"] =Configuration::get('PAYPAL_MX_API_LOGO')?Configuration::get('PAYPAL_MX_API_LOGO'): urlencode("http://localhost:8888/paypal/img/logo.jpg");
+		
+		$credentials['API_Password']=Configuration::get('PAYPAL_MX_API_PASSWORD');
+		$credentials['API_UserName']=Configuration::get('PAYPAL_MX_API_USERNAME');
+		$credentials['API_Signature']=Configuration::get('PAYPAL_MX_API_SIGNATURE');
+		
+		$result = CallShortcutExpressCheckout($paramsArray,
+			urlencode($this->paypal_mx->getModuleLink('paypalmxcustom', 'expresscheckout', array('pp_exp_checkout' => 1,))),
+			urlencode($this->context->link->getPageLink('order.php')),
+			$credentials
+			);
+		
+		
 		if (Tools::strtoupper($result['ACK']) == 'SUCCESS' || Tools::strtoupper($result['ACK']) == 'SUCCESSWITHWARNING')
 		{
-			Tools::redirect('https://www.'.(Configuration::get('PAYPAL_MX_SANDBOX') ? 'sandbox.' : '').'paypal.com/'.(Configuration::get('PAYPAL_MX_SANDBOX') ? '' : 'cgi-bin/').'webscr?cmd=_express-checkout&token='.urldecode($result['TOKEN']));
+			Tools::redirect('https://www.'.(Configuration::get('PAYPAL_MX_SANDBOX') ? 'sandbox.' : '').'paypal.com/cgi-bin/webscr?cmd=_express-checkout&token='.urldecode($result['TOKEN']));
 			exit;
 		}
 		else

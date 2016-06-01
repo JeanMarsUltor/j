@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 17:48:50
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 16:17:53
          compiled from "C:\xampp\htdocs\joyeria\modules\paypalmxcustom\views\templates\hook\express-checkout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:29456574e14d2cde9d3-93485880%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:27492574f510142d208-91666513%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '29456574e14d2cde9d3-93485880',
+  'nocache_hash' => '27492574f510142d208-91666513',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574e14d2d9e0a6_70744652',
+  'unifunc' => 'content_574f51014c1942_05480855',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574e14d2d9e0a6_70744652')) {function content_574e14d2d9e0a6_70744652($_smarty_tpl) {?><?php if (($_smarty_tpl->tpl_vars['page_name']->value=='order'&&(!isset($_smarty_tpl->tpl_vars['paypal_mx_express_checkout_no_token']->value)||!$_smarty_tpl->tpl_vars['paypal_mx_express_checkout_no_token']->value)&&((isset($_GET['step'])&&$_GET['step']>1)||(isset($_POST['step'])&&$_POST['step']>1)))||($_smarty_tpl->tpl_vars['page_name']->value=='order-opc'&&isset($_GET['isPaymentStep'])&&$_GET['isPaymentStep']==true&&isset($_smarty_tpl->tpl_vars['paypal_mx_express_checkout_hook_payment']->value))) {?>    <p class="payment_module row HERE">        <div id="paypal-express-checkout">            <form id="paypal-express-checkout-form" class="well payment_module" action="<?php echo $_smarty_tpl->tpl_vars['paypal_mx_action_payment']->value;?>
+<?php if ($_valid && !is_callable('content_574f51014c1942_05480855')) {function content_574f51014c1942_05480855($_smarty_tpl) {?><?php if (($_smarty_tpl->tpl_vars['page_name']->value=='order'&&(!isset($_smarty_tpl->tpl_vars['paypal_mx_express_checkout_no_token']->value)||!$_smarty_tpl->tpl_vars['paypal_mx_express_checkout_no_token']->value)&&((isset($_GET['step'])&&$_GET['step']>1)||(isset($_POST['step'])&&$_POST['step']>1)))||($_smarty_tpl->tpl_vars['page_name']->value=='order-opc'&&isset($_GET['isPaymentStep'])&&$_GET['isPaymentStep']==true&&isset($_smarty_tpl->tpl_vars['paypal_mx_express_checkout_hook_payment']->value))) {?>    <p class="payment_module row HERE">        <div id="paypal-express-checkout">            <form id="paypal-express-checkout-form" class="well payment_module" action="<?php echo $_smarty_tpl->tpl_vars['paypal_mx_action_payment']->value;?>
 " method="post">                <?php if ($_smarty_tpl->tpl_vars['paypal_mx_merchant_country_is_mx']->value) {?>                    <input id="paypal-express-checkout-btn" type="image" name="submit" src="<?php echo $_smarty_tpl->tpl_vars['module_dir']->value;?>
 img/boton_terminar_compra.png" alt="" class="ecb f_left" />                    <p class="f_left"><?php echo smartyTranslate(array('s'=>'Da clic para confirmar tu compra con PayPal','mod'=>'paypalmxcustom'),$_smarty_tpl);?>
 </p>                    <div class="clearboth"></div>                <?php } else { ?>                    <input id="paypal-express-checkout-btn" type="image" name="submit" src="https://www.paypalobjects.com/<?php if ($_smarty_tpl->tpl_vars['lang_iso']->value=='en') {?>en_US<?php } else { ?><?php if ($_smarty_tpl->tpl_vars['lang_iso']->value=='fr') {?>fr_CA<?php } else { ?><?php if ($_smarty_tpl->tpl_vars['lang_iso']->value=='es') {?>es_ES<?php } else { ?>en_US<?php }?><?php }?><?php }?>/i/bnr/horizontal_solution_PPeCheck.gif" alt="" class="ecb" /> <?php echo smartyTranslate(array('s'=>'Complete your order with PayPal Express Checkout','mod'=>'paypalmxcustom'),$_smarty_tpl);?>

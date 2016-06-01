@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 13:08:04
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 14:32:04
          compiled from "C:\xampp\htdocs\joyeria\modules\paypalmxcustom\views\templates\front\express-checkout-messages.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:29935574dd304cdc6a0-91783988%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1116574f38346327c0-54450951%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '29935574dd304cdc6a0-91783988',
+  'nocache_hash' => '1116574f38346327c0-54450951',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574dd304dbf009_45680397',
+  'unifunc' => 'content_574f38346809e0_95643354',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574dd304dbf009_45680397')) {function content_574dd304dbf009_45680397($_smarty_tpl) {?><h1><?php echo smartyTranslate(array('s'=>'Unexpected payment error','mod'=>'paypalmxcustom'),$_smarty_tpl);?>
+<?php if ($_valid && !is_callable('content_574f38346809e0_95643354')) {function content_574f38346809e0_95643354($_smarty_tpl) {?><h1><?php echo smartyTranslate(array('s'=>'Unexpected payment error','mod'=>'paypalmxcustom'),$_smarty_tpl);?>
 </h1><?php if (isset($_smarty_tpl->tpl_vars['paypal_mx_errors']->value['L_ERRORCODE0'])&&$_smarty_tpl->tpl_vars['paypal_mx_errors']->value['L_ERRORCODE0']==10486) {?>	<div class="pp_error">		<p><b><?php echo smartyTranslate(array('s'=>'Unfortunately, the payment was declined by PayPal for one of the following reasons:','mod'=>'paypalmxcustom'),$_smarty_tpl);?>
 </b></p>        <ul>        	<li><?php echo smartyTranslate(array('s'=>'Billing address could not be confirmed','mod'=>'paypalmxcustom'),$_smarty_tpl);?>
 </li>            <li><?php echo smartyTranslate(array('s'=>'Transaction exceeds the card limit','mod'=>'paypalmxcustom'),$_smarty_tpl);?>

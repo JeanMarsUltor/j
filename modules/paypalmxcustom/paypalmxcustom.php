@@ -83,6 +83,8 @@ class PayPalMXCustom extends PaymentModule
 			Configuration::updateValue('PAYPAL_MX_API_PASSWORD', '');
 		if(!Configuration::get('PAYPAL_MX_API_SIGNATURE'))
 			Configuration::updateValue('PAYPAL_MX_API_SIGNATURE', '');
+		if(!Configuration::get('PAYPAL_MX_API_LOGO'))
+			Configuration::updateValue('PAYPAL_MX_API_LOGO', '');
 		if(!Configuration::get('PAYPAL_MX_ACCOUNT'))
 			Configuration::updateValue('PAYPAL_MX_ACCOUNT', '');
 
@@ -133,7 +135,7 @@ class PayPalMXCustom extends PaymentModule
 	public function uninstall()
 	{
 		$keys_to_uninstall = array('PAYPAL_MX_ACCOUNT', 'PAYPAL_MX_SANDBOX', 'PAYPAL_MX_API_USERNAME', 'PAYPAL_MX_API_PASSWORD',
-			'PAYPAL_MX_API_SIGNATURE', 'PAYPAL_MX_EXP_CHK_PRODUCT', 'PAYPAL_MX_EXP_CHK_SHOPPING_CART', 'PAYPAL_MX_EXP_CHK_BORDER_COLOR',
+			'PAYPAL_MX_API_SIGNATURE','PAYPAL_MX_API_LOGO', 'PAYPAL_MX_EXP_CHK_PRODUCT', 'PAYPAL_MX_EXP_CHK_SHOPPING_CART', 'PAYPAL_MX_EXP_CHK_BORDER_COLOR',
 			'PAYPAL_MX_MANAGER_USER', 'PAYPAL_MX_MANAGER_LOGIN', 'PAYPAL_MX_MANAGER_PASSWORD', 'PAYPAL_MX_MANAGER_PARTNER',
 			'PAYPAL_MX_PAYMENT_STANDARD', 'PAYPAL_MX_PAYMENT_ADVANCED', 'PAYPAL_MX_EXPRESS_CHECKOUT', 'PAYPAL_MX_PAYFLOW_LINK',
 			'PAYPAL_MX_SANDBOX_ADVANCED');
@@ -215,7 +217,7 @@ class PayPalMXCustom extends PaymentModule
 			'paypal_mx_warning' => (empty($this->_warning) ? false : $this->_warning),
 			'paypal_mx_configuration' => Configuration::getMultiple(array('PAYPAL_MX_SANDBOX', 'PAYPAL_MX_PAYMENT_STANDARD', 'PAYPAL_MX_PAYMENT_ADVANCED',
 				'PAYPAL_MX_EXPRESS_CHECKOUT', 'PAYPAL_MX_PAYFLOW_LINK', 'PAYPAL_MX_ACCOUNT', 'PAYPAL_MX_API_USERNAME',
-				'PAYPAL_MX_API_PASSWORD', 'PAYPAL_MX_API_SIGNATURE', 'PAYPAL_MX_EXP_CHK_PRODUCT', 'PAYPAL_MX_EXP_CHK_SHOPPING_CART',
+				'PAYPAL_MX_API_PASSWORD', 'PAYPAL_MX_API_SIGNATURE', 'PAYPAL_MX_API_LOGO', 'PAYPAL_MX_EXP_CHK_PRODUCT', 'PAYPAL_MX_EXP_CHK_SHOPPING_CART',
 				'PAYPAL_MX_EXP_CHK_BORDER_COLOR', 'PAYPAL_MX_MANAGER_USER', 'PAYPAL_MX_MANAGER_LOGIN', 'PAYPAL_MX_MANAGER_PASSWORD',
 				'PAYPAL_MX_MANAGER_PARTNER', 'PAYPAL_MX_SANDBOX_ADVANCED')),
 			'paypal_mx_merchant_country_is_mx' => (Validate::isLoadedObject($this->_shop_country) && $this->_shop_country->iso_code == 'MX'),
@@ -270,6 +272,7 @@ class PayPalMXCustom extends PaymentModule
 			Configuration::updateValue('PAYPAL_MX_API_USERNAME', pSQL(Tools::getValue('paypal_mx_api_username')));
 			Configuration::updateValue('PAYPAL_MX_API_PASSWORD', pSQL(Tools::getValue('paypal_mx_api_password')));
 			Configuration::updateValue('PAYPAL_MX_API_SIGNATURE', pSQL(Tools::getValue('paypal_mx_api_signature')));
+			Configuration::updateValue('PAYPAL_MX_API_LOGO', pSQL(Tools::getValue('paypal_mx_api_logo')));
 			Configuration::updateValue('PAYPAL_MX_SANDBOX', (bool)Tools::getValue('paypal_mx_sandbox'));
 
 		/* PayPal Express Checkout options */
@@ -761,7 +764,7 @@ class PayPalMXCustom extends PaymentModule
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POST, true);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, 'METHOD='.urlencode($method_name).'&VERSION=98&PWD='.urlencode(Configuration::get('PAYPAL_MX_API_PASSWORD')).'&USER='.urlencode(Configuration::get('PAYPAL_MX_API_USERNAME')).'&SIGNATURE='.urlencode(Configuration::get('PAYPAL_MX_API_SIGNATURE')).$params.'&BUTTONSOURCE=PrestashopUS_Cart');
+		curl_setopt($ch, CURLOPT_POSTFIELDS, 'METHOD='.urlencode($method_name).'&VERSION=109.0&PWD='.urlencode(Configuration::get('PAYPAL_MX_API_PASSWORD')).'&USER='.urlencode(Configuration::get('PAYPAL_MX_API_USERNAME')).'&SIGNATURE='.urlencode(Configuration::get('PAYPAL_MX_API_SIGNATURE')).$params.'&BUTTONSOURCE=PP-DemoPortal-PPCredit-php');
 		$response = curl_exec($ch);
 		curl_close($ch);
 

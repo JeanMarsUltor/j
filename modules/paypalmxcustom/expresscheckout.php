@@ -135,10 +135,19 @@ class paypal_mx_expresscheckout extends PayPalMXCustom
 		/* Create a PayPal payment request and redirect the customer to PayPal (to log-in or to fill his/her credit card info) */
 		$currency = new Currency((int)$this->context->cart->id_currency);
 
-		$result = $this->paypal_mx->postToPayPal('SetExpressCheckout', (Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR') != '' ? '&CARTBORDERCOLOR='.Tools::substr(str_replace('#', '', Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR')), 0, 6) : '').'&PAYMENTREQUEST_0_AMT='.$totalToPay.'&PAYMENTREQUEST_0_PAYMENTACTION=Sale&RETURNURL='.urlencode($this->paypal_mx->getModuleLink('paypalmxcustom', 'expresscheckout', array('pp_exp_checkout' => 1,))).'&CANCELURL='.urlencode($this->context->link->getPageLink('order.php')).'&PAYMENTREQUEST_0_CURRENCYCODE='.urlencode($currency->iso_code).$nvp_request);
+		$result = $this->paypal_mx->postToPayPal('SetExpressCheckout',
+		(Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR') != '' ? '&CARTBORDERCOLOR='.Tools::substr(str_replace('#', '',Configuration::get('PAYPAL_MX_EXP_CHK_BORDER_COLOR')), 0, 6) : '').
+		'&PAYMENTREQUEST_0_AMT='.$totalToPay.
+		'&PAYMENTREQUEST_0_PAYMENTACTION=Sale'.
+		'&RETURNURL='.urlencode($this->paypal_mx->getModuleLink('paypalmxcustom', 'expresscheckout', array('pp_exp_checkout' => 1,))).
+		'&CANCELURL='.urlencode($this->context->link->getPageLink('order.php')).
+		'&PAYMENTREQUEST_0_CURRENCYCODE='.urlencode($currency->iso_code).$nvp_request);
+		
+		
+		
 		if (Tools::strtoupper($result['ACK']) == 'SUCCESS' || Tools::strtoupper($result['ACK']) == 'SUCCESSWITHWARNING')
 		{
-			Tools::redirect('https://www.'.(Configuration::get('PAYPAL_MX_SANDBOX') ? 'sandbox.' : '').'paypal.com/'.(Configuration::get('PAYPAL_MX_SANDBOX') ? '' : 'cgi-bin/').'webscr?cmd=_express-checkout&token='.urldecode($result['TOKEN']),'');
+			Tools::redirect('https://www.'.(Configuration::get('PAYPAL_MX_SANDBOX') ? 'sandbox.' : '').'paypal.com/cgi-bin/webscr?cmd=_express-checkout&token='.urldecode($result['TOKEN']),'');
 			exit;
 		}
 		else

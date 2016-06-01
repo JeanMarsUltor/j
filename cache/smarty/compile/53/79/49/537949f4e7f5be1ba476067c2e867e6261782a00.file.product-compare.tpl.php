@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 12:45:57
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 14:41:15
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\product-compare.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6887574dcdd57962c4-07215245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:22265574f3a5bce4da8-06263194%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6887574dcdd57962c4-07215245',
+  'nocache_hash' => '22265574f3a5bce4da8-06263194',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574dcdd57c1255_35558309',
+  'unifunc' => 'content_574f3a5bd0fd32_22651656',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574dcdd57c1255_35558309')) {function content_574dcdd57c1255_35558309($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_574f3a5bd0fd32_22651656')) {function content_574f3a5bd0fd32_22651656($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['comparator_max_item']->value) {?>
 	<form method="post" action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('products-comparison'), ENT_QUOTES, 'UTF-8', true);?>
 " class="compare-form">

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 14:36:57
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 16:19:07
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\modules\blockspecials\blockspecials.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9910574de7d9132c21-27410931%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14883574f514b0a6e09-15696875%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9910574de7d9132c21-27410931',
+  'nocache_hash' => '14883574f514b0a6e09-15696875',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574de7d91bb7a7_44322466',
+  'unifunc' => 'content_574f514b12bb34_88013152',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574de7d91bb7a7_44322466')) {function content_574de7d91bb7a7_44322466($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_574f514b12bb34_88013152')) {function content_574f514b12bb34_88013152($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?>
 
 <!-- MODULE Block specials -->

@@ -103,6 +103,14 @@
 					<input type="password" name="paypal_mx_api_signature" value="{if $paypal_mx_configuration.PAYPAL_MX_API_SIGNATURE}{$paypal_mx_configuration.PAYPAL_MX_API_SIGNATURE|escape:'htmlall':'UTF-8'}{/if}" class="form-control"/>
 				</div>
 			</div>
+			<div class="form-group">
+				<label for="paypal_mx_api_logo" class="col-sm-3 control-label">
+					{l s='PayPal API Logo:' mod='paypalmxcustom'}
+				</label>
+				<div class="col-sm-4">
+					<input type="text" name="paypal_mx_api_logo" value="{if $paypal_mx_configuration.PAYPAL_MX_API_LOGO}{$paypal_mx_configuration.PAYPAL_MX_API_LOGO|escape:'htmlall':'UTF-8'}{/if}" class="form-control"/>
+				</div>
+			</div>
 		</fieldset>
 		<fieldset>
 			<h4 class="sep-title">{l s='PayPal Express Checkout button settings:' mod='paypalmxcustom'}</h4>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 14:36:46
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 14:52:52
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\order-payment-classic.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10542574de7cea4eca7-13643045%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:23421574f3d149992d8-69847352%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10542574de7cea4eca7-13643045',
+  'nocache_hash' => '23421574f3d149992d8-69847352',
   'function' => 
   array (
   ),
@@ -67,9 +67,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574de7cec90ea3_59363236',
+  'unifunc' => 'content_574f3d14c92f88_22597227',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574de7cec90ea3_59363236')) {function content_574de7cec90ea3_59363236($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_574f3d14c92f88_22597227')) {function content_574f3d14c92f88_22597227($_smarty_tpl) {?>
 <div class="paiement_block">
     <div id="HOOK_TOP_PAYMENT"><?php echo $_smarty_tpl->tpl_vars['HOOK_TOP_PAYMENT']->value;?>
 </div>

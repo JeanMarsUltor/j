@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-05-31 12:45:57
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 14:41:15
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\product-list-colors.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19091574dcdd5115f15-76580908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5274574f3a5b649470-27986835%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19091574dcdd5115f15-76580908',
+  'nocache_hash' => '5274574f3a5b649470-27986835',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574dcdd51585b3_78840291',
+  'unifunc' => 'content_574f3a5b687c80_07361092',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574dcdd51585b3_78840291')) {function content_574dcdd51585b3_78840291($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_574f3a5b687c80_07361092')) {function content_574f3a5b687c80_07361092($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['colors_list']->value)) {?>
 <ul class="color_to_pick_list clearfix">
 	<?php  $_smarty_tpl->tpl_vars['color'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['color']->_loop = false;
