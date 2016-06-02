@@ -1793,7 +1793,7 @@ CREATE TABLE `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1802,7 +1802,7 @@ CREATE TABLE `ps_connections` (
 
 LOCK TABLES `ps_connections` WRITE;
 /*!40000 ALTER TABLE `ps_connections` DISABLE KEYS */;
-INSERT INTO `ps_connections` VALUES (1,1,1,1,1,2130706433,'2016-05-31 08:03:11','http://www.prestashop.com'),(2,1,1,2,1,0,'2016-05-31 10:05:13','http://localhost:8888/joyeria/admin631gsbait/index.php?controller=AdminModules&conf=22&token=844568431008b10eee1bee35535b4dd6&tab_module=payments_gateways&module_name=paypalmx'),(3,1,1,2,2,0,'2016-05-31 11:33:26',''),(4,1,1,2,2,0,'2016-05-31 12:13:32',''),(5,1,1,2,2,0,'2016-05-31 12:46:29',''),(6,1,1,2,1,0,'2016-05-31 14:34:39','');
+INSERT INTO `ps_connections` VALUES (1,1,1,1,1,2130706433,'2016-05-31 08:03:11','http://www.prestashop.com'),(2,1,1,2,1,0,'2016-05-31 10:05:13','http://localhost:8888/joyeria/admin631gsbait/index.php?controller=AdminModules&conf=22&token=844568431008b10eee1bee35535b4dd6&tab_module=payments_gateways&module_name=paypalmx'),(3,1,1,2,2,0,'2016-05-31 11:33:26',''),(4,1,1,2,2,0,'2016-05-31 12:13:32',''),(5,1,1,2,2,0,'2016-05-31 12:46:29',''),(6,1,1,2,1,0,'2016-05-31 14:34:39',''),(7,1,1,2,1,0,'2016-05-31 16:42:02','');
 /*!40000 ALTER TABLE `ps_connections` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7807,4 +7807,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-05-31 16:39:55
+-- Dump completed on 2016-06-02 18:27:23
