@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-01 16:23:04
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-03 12:11:18
          compiled from "C:\xampp\htdocs\joyeria\modules\blockcategories\views\blockcategories_admin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20043574f5238f1a003-05199861%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:128835751ba36603f89-49803416%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20043574f5238f1a003-05199861',
+  'nocache_hash' => '128835751ba36603f89-49803416',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574f5239002b98_21637062',
+  'unifunc' => 'content_5751ba3663e917_38102592',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574f5239002b98_21637062')) {function content_574f5239002b98_21637062($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5751ba3663e917_38102592')) {function content_5751ba3663e917_38102592($_smarty_tpl) {?>
 <div class="form-group">
 	<label class="control-label col-lg-3">
 		<span class="label-tooltip" data-toggle="tooltip" data-html="true" title="" data-original-title="<?php echo smartyTranslate(array('s'=>'In the default theme, these images will be displayed in the top horizontal menu; but only if the category is one of the first level (see Top horizontal menu module for more info).','mod'=>'blockcategories'),$_smarty_tpl);?>
