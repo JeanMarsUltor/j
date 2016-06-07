@@ -1,23 +1,23 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-03 12:11:09
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-05 18:18:05
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\categories\helpers\list\list_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:92745751ba2d5a2b12-44532037%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:283115754b32d027342-94252158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9c5463d180ac31300624d78a8b1bd9829edca23f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\controllers\\categories\\helpers\\list\\list_header.tpl',
-      1 => 1460131476,
+      1 => 1464909874,
       2 => 'file',
     ),
     'c623bef4cc265a14877227c41498d4b0e61c08c9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\list\\list_header.tpl',
-      1 => 1460131476,
+      1 => 1464909876,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '92745751ba2d5a2b12-44532037',
+  'nocache_hash' => '283115754b32d027342-94252158',
   'function' => 
   array (
   ),
@@ -69,9 +69,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5751ba2d8f26f3_74290213',
+  'unifunc' => 'content_5754b32d563901_29746397',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5751ba2d8f26f3_74290213')) {function content_5751ba2d8f26f3_74290213($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.math.php';
+<?php if ($_valid && !is_callable('content_5754b32d563901_29746397')) {function content_5754b32d563901_29746397($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.math.php';
 ?>
 <?php if ($_smarty_tpl->tpl_vars['ajax']->value) {?>
 	<script type="text/javascript">
