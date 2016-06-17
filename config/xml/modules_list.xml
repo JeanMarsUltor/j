@@ -142,6 +142,7 @@
 		<module name="liveperson"/>
 		<module name="lowcostexpress"/>
 		<module name="loyaltylion"/>
+		<module name="magnalister"/>
 		<module name="mediafinanz"/>
 		<module name="mercadopagobr"/>
 		<module name="merchantware"/>
@@ -151,6 +152,7 @@
 		<module name="nostotagging"/>
 		<module name="nimblepayment"/>
 		<module name="ogone"/>
+		<module name="Packlink"/>
 		<module name="pagseguro"/>
 		<module name="payolution"/>
 		<module name="paypal"/>
@@ -158,12 +160,15 @@
 		<module name="paypalmx"/>
 		<module name="payplug"/>
 		<module name="payulatam"/>
+		<module name="popularpayments"/>
 		<module name="protectedshops"/>
 		<module name="psphipay"/>
+		<module name="pudo"/>
 		<module name="realexredirect"/>
 		<module name="reforestaction"/>
 		<module name="remarkety"/>
 		<module name="riskified"/>
+		<module name="selldorado"/>
 		<module name="sendinblue"/>
 		<module name="shiptomyid"/>
 		<module name="shoppingfeedexport"/>
@@ -177,6 +182,5 @@
 		<module name="vtpayment"/>
 		<module name="yotpo"/>
 		<module name="yousticeresolutionsystem"/>
-		<module name="zeleriscarrier"/>
 	</modules>
 </modules_list>

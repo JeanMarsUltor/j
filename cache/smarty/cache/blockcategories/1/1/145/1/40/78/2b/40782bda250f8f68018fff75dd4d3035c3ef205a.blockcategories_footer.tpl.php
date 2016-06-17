@@ -1,21 +1,21 @@
-<?php /*%%SmartyHeaderCode:6222574da83b265bf0-48793557%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1726657636113f41ca0-94638479%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '40782bda250f8f68018fff75dd4d3035c3ef205a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcategories\\blockcategories_footer.tpl',
-      1 => 1460131476,
+      1 => 1464909924,
       2 => 'file',
     ),
     '7920712c39a7b80ce11edaa70d69ea4cf286e41e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcategories\\category-tree-branch.tpl',
-      1 => 1460131476,
+      1 => 1464909924,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6222574da83b265bf0-48793557',
+  'nocache_hash' => '1726657636113f41ca0-94638479',
   'variables' => 
   array (
     'isDhtml' => 0,
@@ -25,10 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574da83b2f6479_93022509',
+  'unifunc' => 'content_5763611418cd84_49709885',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574da83b2f6479_93022509')) {function content_574da83b2f6479_93022509($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5763611418cd84_49709885')) {function content_5763611418cd84_49709885($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Categorías</h4>
@@ -36,79 +36,56 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="list">
 			<ul class="tree dhtml">
 												
-<li class="last">
+<li >
 	<a 
-	href="http://localhost:8888/joyeria/3-mujer" title="Aquí encontrarás todas las colecciones de moda de mujer.  
- Esta categoría incluye todos los básicos de tu armario y mucho más: 
- ¡zapatos, complementos, camisetas estampadas, vestidos muy femeninos y vaqueros para mujer!">
+	href="http://localhost:8888/joyeria/3-hombre" title="Aqui encontraras todos los productos de joyeria para hombres">
+		Hombre
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/4-mujer" title="Aqui encontraras todos los productos de joyeria para mujeres">
 		Mujer
 	</a>
-			<ul>
-												
+	</li>
+
+							
+																
 <li >
 	<a 
-	href="http://localhost:8888/joyeria/4-tops" title="Aquí encontrarás camisetas, tops, blusas, camisetas de manga corta, de manga larga, sin mangas, de media manga y mucho más. 
- ¡Encuentra el corte que mejor te quede!">
-		Tops
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://localhost:8888/joyeria/5-camisetas" title="Los must have de tu armario; ¡échale un vistazo a los diferentes colores, 
- formas y estilos de nuestra colección!">
-		Camisetas
+	href="http://localhost:8888/joyeria/5-plata" title="Productos de Plata">
+		Plata
 	</a>
 	</li>
 
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/6-acero-inoxidable" title="Productos de Acero inoxidable">
+		Acero inoxidable
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/7-bisuteria" title="Productos de Bisuteria">
+		Bisuteria
+	</a>
+	</li>
+
+							
 																
 <li class="last">
 	<a 
-	href="http://localhost:8888/joyeria/7-blusas" title="Combina tus blusas preferidas con los accesorios perfectos para un look deslumbrante.">
-		Blusas
+	href="http://localhost:8888/joyeria/8-joyeria-italiana" title="Linea Italiana de joyeria">
+		Joyeria Italiana
 	</a>
-	</li>
-
-									</ul>
-	</li>
-
-																
-<li class="last">
-	<a 
-	href="http://localhost:8888/joyeria/8-vestidos" title="¡Encuentra tus vestidos favoritos entre nuestra amplia colección de vestidos de noche, vestidos informales y vestidos veraniegos! 
- Te ofrecemos vestidos para todos los días, para cualquier estilo y cualquier ocasión.">
-		Vestidos
-	</a>
-			<ul>
-												
-<li >
-	<a 
-	href="http://localhost:8888/joyeria/9-vestidos-informales" title="¿Estás buscando un vestido para todos los días? Échale un vistazo a 
- nuestra selección para encontrar el vestido perfecto.">
-		Vestidos informales
-	</a>
-	</li>
-
-																
-<li >
-	<a 
-	href="http://localhost:8888/joyeria/10-vestidos-noche" title="¡Descubre nuestra colección y encuentra el vestido perfecto para una velada inolvidable!">
-		Vestidos de noche
-	</a>
-	</li>
-
-																
-<li class="last">
-	<a 
-	href="http://localhost:8888/joyeria/11-vestidos-verano" title="Cortos, largos, de seda, estampados... aquí encontrarás el vestido perfecto para el verano.">
-		Vestidos de verano
-	</a>
-	</li>
-
-									</ul>
-	</li>
-
-									</ul>
 	</li>
 
 							

@@ -1,15 +1,15 @@
-<?php /*%%SmartyHeaderCode:31356574da83b363a71-65528371%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21568576361144e5849-81161324%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '847852a5dabadd41fa78d71f350de130af6c5a72' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcms\\blockcms.tpl',
-      1 => 1460131476,
+      1 => 1464909924,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '31356574da83b363a71-65528371',
+  'nocache_hash' => '21568576361144e5849-81161324',
   'variables' => 
   array (
     'block' => 0,
@@ -33,10 +33,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => true,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_574da83b446379_16109743',
+  'unifunc' => 'content_576361147e5071_06600783',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_574da83b446379_16109743')) {function content_574da83b446379_16109743($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_576361147e5071_06600783')) {function content_576361147e5071_06600783($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Información</h4>
@@ -56,12 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						¡Lo más vendido!
 					</a>
 				</li>
-										<li class="item">
-					<a href="http://localhost:8888/joyeria/tiendas" title="Nuestras tiendas">
-						Nuestras tiendas
-					</a>
-				</li>
-									<li class="item">
+												<li class="item">
 				<a href="http://localhost:8888/joyeria/contactanos" title="Contacte con nosotros">
 					Contacte con nosotros
 				</a>
