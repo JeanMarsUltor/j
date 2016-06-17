@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:31:48
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-17 10:59:51
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\modules\blockcms\blockcms.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21568576361144e5849-81161324%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3041357641e77bec950-48324835%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '847852a5dabadd41fa78d71f350de130af6c5a72' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcms\\blockcms.tpl',
-      1 => 1464909924,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21568576361144e5849-81161324',
+  'nocache_hash' => '3041357641e77bec950-48324835',
   'function' => 
   array (
   ),
@@ -38,9 +38,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => true,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57636114611019_16823308',
+  'unifunc' => 'content_57641e77cc3364_61553188',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57636114611019_16823308')) {function content_57636114611019_16823308($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57641e77cc3364_61553188')) {function content_57641e77cc3364_61553188($_smarty_tpl) {?>
 
 <?php if ($_smarty_tpl->tpl_vars['block']->value==1) {?>
 	<!-- Block CMS module -->
@@ -199,8 +199,8 @@ $_smarty_tpl->tpl_vars['cmslink']->_loop = true;
 	<?php if ($_smarty_tpl->tpl_vars['display_poweredby']->value) {?>
 	<section class="bottom-footer col-xs-12">
 		<div>
-			<?php echo '/*%%SmartyNocache:21568576361144e5849-81161324%%*/<?php echo smartyTranslate(array(\'s\'=>\'[1] %3$s %2$s - Ecommerce software by %1$s [/1]\',\'mod\'=>\'blockcms\',\'sprintf\'=>array(\'PrestaShop™\',date(\'Y\'),\'©\'),\'tags\'=>array(\'<a class="_blank" href="http://www.prestashop.com">\')),$_smarty_tpl);?>
-/*/%%SmartyNocache:21568576361144e5849-81161324%%*/';?>
+			<?php echo '/*%%SmartyNocache:3041357641e77bec950-48324835%%*/<?php echo smartyTranslate(array(\'s\'=>\'[1] %3$s %2$s - Ecommerce software by %1$s [/1]\',\'mod\'=>\'blockcms\',\'sprintf\'=>array(\'PrestaShop™\',date(\'Y\'),\'©\'),\'tags\'=>array(\'<a class="_blank" href="http://www.prestashop.com">\')),$_smarty_tpl);?>
+/*/%%SmartyNocache:3041357641e77bec950-48324835%%*/';?>
 
 		</div>
 	</section>

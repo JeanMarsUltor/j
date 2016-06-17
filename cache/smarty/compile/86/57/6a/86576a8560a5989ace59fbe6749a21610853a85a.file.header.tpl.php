@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:31:49
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-17 10:59:51
          compiled from "C:\xampp\htdocs\joyeria\themes\default-bootstrap\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10805576361156a4eb1-98006194%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:353457641e77eb2cf6-31468690%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '86576a8560a5989ace59fbe6749a21610853a85a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\header.tpl',
-      1 => 1464909923,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10805576361156a4eb1-98006194',
+  'nocache_hash' => '353457641e77eb2cf6-31468690',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5763611585ec73_00289044',
+  'unifunc' => 'content_57641e780953c3_32980555',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5763611585ec73_00289044')) {function content_5763611585ec73_00289044($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.implode.php';
+<?php if ($_valid && !is_callable('content_57641e780953c3_32980555')) {function content_57641e780953c3_32980555($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

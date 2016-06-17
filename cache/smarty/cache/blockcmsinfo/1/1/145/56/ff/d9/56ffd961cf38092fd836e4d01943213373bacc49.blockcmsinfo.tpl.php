@@ -1,15 +1,15 @@
-<?php /*%%SmartyHeaderCode:274185763610fee65b3-79801221%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2815957641e7722efc0-00328066%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '56ffd961cf38092fd836e4d01943213373bacc49' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\blockcmsinfo\\blockcmsinfo.tpl',
-      1 => 1464909915,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '274185763610fee65b3-79801221',
+  'nocache_hash' => '2815957641e7722efc0-00328066',
   'variables' => 
   array (
     'infos' => 0,
@@ -17,10 +17,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5763611000b931_97489425',
+  'unifunc' => 'content_57641e77246667_32916851',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5763611000b931_97489425')) {function content_5763611000b931_97489425($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
+<?php if ($_valid && !is_callable('content_57641e77246667_32916851')) {function content_57641e77246667_32916851($_smarty_tpl) {?><!-- MODULE Block cmsinfo -->
 <div id="cmsinfo_block">
 					<div class="col-xs-6"><ul><li><em class="icon-truck" id="icon-truck"></em>
 <div class="type-text">

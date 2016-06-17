@@ -1,15 +1,15 @@
-<?php /*%%SmartyHeaderCode:347857636116b9a8b2-57457301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2074757641e78284d53-47690043%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1ae90991ab903157d1e9b2ce0b1c3d4a02cbf46e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\homeslider\\homeslider.tpl',
-      1 => 1464909924,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '347857636116b9a8b2-57457301',
+  'nocache_hash' => '2074757641e78284d53-47690043',
   'variables' => 
   array (
     'page_name' => 0,
@@ -19,10 +19,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57636116dff059_36163320',
+  'unifunc' => 'content_57641e782e6646_55970556',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57636116dff059_36163320')) {function content_57636116dff059_36163320($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_57641e782e6646_55970556')) {function content_57641e782e6646_55970556($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
 						<ul id="homeslider" style="max-height:448px;">
 															<li class="homeslider-container">

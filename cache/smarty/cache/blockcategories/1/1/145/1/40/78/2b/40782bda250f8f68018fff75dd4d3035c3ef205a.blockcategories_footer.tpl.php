@@ -1,21 +1,21 @@
-<?php /*%%SmartyHeaderCode:1726657636113f41ca0-94638479%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:767157641e77b31454-87142370%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '40782bda250f8f68018fff75dd4d3035c3ef205a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcategories\\blockcategories_footer.tpl',
-      1 => 1464909924,
+      1 => 1460131476,
       2 => 'file',
     ),
     '7920712c39a7b80ce11edaa70d69ea4cf286e41e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\default-bootstrap\\modules\\blockcategories\\category-tree-branch.tpl',
-      1 => 1464909924,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1726657636113f41ca0-94638479',
+  'nocache_hash' => '767157641e77b31454-87142370',
   'variables' => 
   array (
     'isDhtml' => 0,
@@ -25,10 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5763611418cd84_49709885',
+  'unifunc' => 'content_57641e77bae256_14589698',
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5763611418cd84_49709885')) {function content_5763611418cd84_49709885($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57641e77bae256_14589698')) {function content_57641e77bae256_14589698($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Categorías</h4>
