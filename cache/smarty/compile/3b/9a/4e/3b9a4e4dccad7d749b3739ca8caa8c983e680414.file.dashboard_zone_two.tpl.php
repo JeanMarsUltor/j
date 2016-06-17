@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:14:00
          compiled from "C:\xampp\htdocs\joyeria\modules\dashproducts\views\templates\hook\dashboard_zone_two.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:216457635ce8d3e901-03695978%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\modules\dashproducts\views\templates\hook\dashboard_zone_two.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1035057573e41d36854-46789145%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3b9a4e4dccad7d749b3739ca8caa8c983e680414' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\dashproducts\\views\\templates\\hook\\dashboard_zone_two.tpl',
+<<<<<<< HEAD
       1 => 1464909918,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '216457635ce8d3e901-03695978',
+=======
+      1 => 1460131478,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1035057573e41d36854-46789145',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -27,9 +41,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635ce8d9c720_41092853',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635ce8d9c720_41092853')) {function content_57635ce8d9c720_41092853($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_57573e41d711f7_53537165',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e41d711f7_53537165')) {function content_57573e41d711f7_53537165($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 
 <section id="dashproducts" class="panel widget <?php if ($_smarty_tpl->tpl_vars['allow_push']->value) {?> allow_push<?php }?>">
 	<header class="panel-heading">

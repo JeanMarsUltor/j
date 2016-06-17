@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:14:00
          compiled from "C:\xampp\htdocs\joyeria\modules\dashactivity\views\templates\hook\dashboard_zone_one.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1428057635ce86ffc37-93126575%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\modules\dashactivity\views\templates\hook\dashboard_zone_one.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2768257573e41b986b9-39394733%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c24ec000af2d3255146d10452572f0e556a6efd3' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\dashactivity\\views\\templates\\hook\\dashboard_zone_one.tpl',
+<<<<<<< HEAD
       1 => 1464909918,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1428057635ce86ffc37-93126575',
+=======
+      1 => 1460131478,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2768257573e41b986b9-39394733',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -29,9 +43,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635ce881d075_23894507',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635ce881d075_23894507')) {function content_57635ce881d075_23894507($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_57573e41c2cde3_59208733',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e41c2cde3_59208733')) {function content_57573e41c2cde3_59208733($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 <section id="dashactivity" class="panel widget<?php if ($_smarty_tpl->tpl_vars['allow_push']->value) {?> allow_push<?php }?>">
 	<div class="panel-heading">
 		<i class="icon-time"></i> <?php echo smartyTranslate(array('s'=>'Activity overview','mod'=>'dashactivity'),$_smarty_tpl);?>

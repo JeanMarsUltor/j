@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:25:41
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\list\list_content.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2152257635fa548bef4-98448909%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:22:45
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\list\list_content.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1660357587085c122b3-60579288%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9c84744f36d29e21c25b358af226a8c2f50f6892' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\list\\list_content.tpl',
-      1 => 1464909876,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '2152257635fa548bef4-98448909',
+=======
+  'nocache_hash' => '1660357587085c122b3-60579288',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -48,9 +58,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635fa5846fe9_30262409',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635fa5846fe9_30262409')) {function content_57635fa5846fe9_30262409($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+=======
+  'unifunc' => 'content_5758708623ea07_01337523',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5758708623ea07_01337523')) {function content_5758708623ea07_01337523($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);

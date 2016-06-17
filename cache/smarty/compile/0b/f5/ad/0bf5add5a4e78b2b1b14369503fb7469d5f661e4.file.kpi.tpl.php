@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:14
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\kpi\kpi.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1191257635c7e2c4ce4-52011936%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:22:44
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\kpi\kpi.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2655957587084ac1fd0-03249301%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0bf5add5a4e78b2b1b14369503fb7469d5f661e4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\kpi\\kpi.tpl',
-      1 => 1464909876,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '1191257635c7e2c4ce4-52011936',
+=======
+  'nocache_hash' => '2655957587084ac1fd0-03249301',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -32,9 +42,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c7e35e020_57731614',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c7e35e020_57731614')) {function content_57635c7e35e020_57731614($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+=======
+  'unifunc' => 'content_57587084bb0498_77054067',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57587084bb0498_77054067')) {function content_57587084bb0498_77054067($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 ?>
 
 <<?php if (isset($_smarty_tpl->tpl_vars['href']->value)&&$_smarty_tpl->tpl_vars['href']->value) {?>a style="display:block" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['href']->value, ENT_QUOTES, 'UTF-8', true);?>

@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:05
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\modal.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2160257635c7570e291-43087777%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:22:51
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\modal.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:250305758708be55a58-28930529%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c4a27638c5a0ccfd45dfc7145ad4ced8b82713f9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\modal.tpl',
-      1 => 1464909876,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '2160257635c7570e291-43087777',
+=======
+  'nocache_hash' => '250305758708be55a58-28930529',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -26,9 +36,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c75751ab3_83365534',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c75751ab3_83365534')) {function content_57635c75751ab3_83365534($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_5758708bf40098_48571926',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5758708bf40098_48571926')) {function content_5758708bf40098_48571926($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 <div class="modal fade" id="<?php echo $_smarty_tpl->tpl_vars['modal_id']->value;?>
 " tabindex="-1">
 	<div class="modal-dialog <?php if (isset($_smarty_tpl->tpl_vars['modal_class']->value)) {?><?php echo $_smarty_tpl->tpl_vars['modal_class']->value;?>

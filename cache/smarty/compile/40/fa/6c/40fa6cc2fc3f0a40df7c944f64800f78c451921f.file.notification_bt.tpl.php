@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:01
          compiled from "C:\xampp\htdocs\joyeria\modules\gamification\views\templates\hook\notification_bt.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:21457635c71d628d4-08101117%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:23:02
+         compiled from "C:\xampp\htdocs\joyeria\modules\gamification\views\templates\hook\notification_bt.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:3215457587096a4cd34-85260914%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '40fa6cc2fc3f0a40df7c944f64800f78c451921f' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\gamification\\views\\templates\\hook\\notification_bt.tpl',
-      1 => 1464909919,
+      1 => 1464699980,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '21457635c71d628d4-08101117',
+=======
+  'nocache_hash' => '3215457587096a4cd34-85260914',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -31,9 +41,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c71e73917_08080363',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c71e73917_08080363')) {function content_57635c71e73917_08080363($_smarty_tpl) {?><script>
+=======
+  'unifunc' => 'content_57587096ba4989_86244486',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57587096ba4989_86244486')) {function content_57587096ba4989_86244486($_smarty_tpl) {?><script>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 	var current_id_tab = <?php echo intval($_smarty_tpl->tpl_vars['current_id_tab']->value);?>
 ;
 	var current_level_percent = <?php echo intval($_smarty_tpl->tpl_vars['current_level_percent']->value);?>

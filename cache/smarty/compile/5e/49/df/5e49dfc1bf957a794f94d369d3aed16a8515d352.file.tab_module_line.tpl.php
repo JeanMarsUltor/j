@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:05
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\modules\tab_module_line.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1082057635c753c49b3-25382556%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:21:11
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\modules\tab_module_line.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:901657573ac7144901-66447597%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5e49dfc1bf957a794f94d369d3aed16a8515d352' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\controllers\\modules\\tab_module_line.tpl',
+<<<<<<< HEAD
       1 => 1464909875,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1082057635c753c49b3-25382556',
+=======
+      1 => 1460131476,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '901657573ac7144901-66447597',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -25,9 +39,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c75501504_47196897',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c75501504_47196897')) {function content_57635c75501504_47196897($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+=======
+  'unifunc' => 'content_57573ac7294801_58883113',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573ac7294801_58883113')) {function content_57573ac7294801_58883113($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 ?>
 <tr>
 	<td class="fixed-width-sm center">

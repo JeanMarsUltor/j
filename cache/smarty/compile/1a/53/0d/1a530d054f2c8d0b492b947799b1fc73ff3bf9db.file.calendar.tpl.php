@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:14:00
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\calendar\calendar.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:860557635ce8eb3cd0-14101664%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\calendar\calendar.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2740757573e41d8c778-76203433%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '1a530d054f2c8d0b492b947799b1fc73ff3bf9db' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\calendar\\calendar.tpl',
+<<<<<<< HEAD
       1 => 1464909876,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '860557635ce8eb3cd0-14101664',
+=======
+      1 => 1460131474,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2740757573e41d8c778-76203433',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -29,9 +43,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635ce90dba55_47470954',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635ce90dba55_47470954')) {function content_57635ce90dba55_47470954($_smarty_tpl) {?><div id="datepicker" class="row row-padding-top hide">
+=======
+  'unifunc' => 'content_57573e41e7eae6_90610868',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e41e7eae6_90610868')) {function content_57573e41e7eae6_90610868($_smarty_tpl) {?><div id="datepicker" class="row row-padding-top hide">
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 	<div class="col-lg-12">
 		<div class="daterangepicker-days">
 			<div class="row">

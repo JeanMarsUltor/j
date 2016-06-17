@@ -409,8 +409,10 @@ class AuthControllerCore extends FrontController
         $customer = new Customer();
         $lastnameAddress = Tools::getValue('lastname');
         $firstnameAddress = Tools::getValue('firstname');
+        $refer_user = Tools::getValue('refer_user');
         $_POST['lastname'] = Tools::getValue('customer_lastname', $lastnameAddress);
         $_POST['firstname'] = Tools::getValue('customer_firstname', $firstnameAddress);
+        $_POST['refer_user'] = Tools::getValue('refer_user', $refer_user);
         $addresses_types = array('address');
         if (!Configuration::get('PS_ORDER_PROCESS_TYPE') && Configuration::get('PS_GUEST_CHECKOUT_ENABLED') && Tools::getValue('invoice_address')) {
             $addresses_types[] = 'address_invoice';
@@ -453,6 +455,7 @@ class AuthControllerCore extends FrontController
                 // New Guest customer
                 $customer->is_guest = (Tools::isSubmit('is_new_customer') ? !Tools::getValue('is_new_customer', 1) : 0);
                 $customer->active = 1;
+                $customer->refer_user = $refer_user;
 
                 if (!count($this->errors)) {
                     if ($customer->add()) {
@@ -573,6 +576,9 @@ class AuthControllerCore extends FrontController
             $this->processCustomerNewsletter($customer);
 
             $customer->birthday = (empty($_POST['years']) ? '' : (int)Tools::getValue('years').'-'.(int)Tools::getValue('months').'-'.(int)Tools::getValue('days'));
+			
+            $customer->refer_user = $refer_user;
+			
             if (!Validate::isBirthDate($customer->birthday)) {
                 $this->errors[] = Tools::displayError('Invalid date of birth');
             }

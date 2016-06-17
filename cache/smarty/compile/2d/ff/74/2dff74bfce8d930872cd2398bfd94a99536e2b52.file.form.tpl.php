@@ -1,23 +1,41 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:13:22
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\form\form.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:588757635cc2284679-13041049%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:00
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\form\form.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:307657573e40aa1e83-25826340%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2dff74bfce8d930872cd2398bfd94a99536e2b52' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\form\\form.tpl',
+<<<<<<< HEAD
       1 => 1464909876,
+=======
+      1 => 1460131476,
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
       2 => 'file',
     ),
     '7102951b08f7263ad92c548e91d0aff3a22c717e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\form\\form_group.tpl',
+<<<<<<< HEAD
       1 => 1464909876,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '588757635cc2284679-13041049',
+=======
+      1 => 1460131476,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '307657573e40aa1e83-25826340',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -73,9 +91,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635cc33031e2_37160577',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635cc33031e2_37160577')) {function content_57635cc33031e2_37160577($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+=======
+  'unifunc' => 'content_57573e41b6d726_61165016',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e41b6d726_61165016')) {function content_57573e41b6d726_61165016($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -1161,8 +1185,13 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
+<<<<<<< HEAD
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '588757635cc2284679-13041049');
 content_57635cc2ec2ef9_64491788($_smarty_tpl);
+=======
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '307657573e40aa1e83-25826340');
+content_57573e418d5517_74711809($_smarty_tpl);
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1539,9 +1568,15 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:13:22
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\form\form_group.tpl" */ ?>
 <?php if ($_valid && !is_callable('content_57635cc2ec2ef9_64491788')) {function content_57635cc2ec2ef9_64491788($_smarty_tpl) {?>
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\form\form_group.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_57573e418d5517_74711809')) {function content_57573e418d5517_74711809($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

@@ -502,6 +502,13 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="form-group">
+				<label for="refer_user">{l s='Código de Usuario(Opcional)'}</label>
+				<input type="text" id="refer_user" name="refer_user"  value=""/>
+			</div>
+			
+			
 			{if isset($newsletter) && $newsletter}
 				<div class="checkbox">
 					<input type="checkbox" name="newsletter" id="newsletter" value="1" {if isset($smarty.post.newsletter) AND $smarty.post.newsletter == 1} checked="checked"{/if} />

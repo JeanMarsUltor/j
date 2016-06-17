@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:06
          compiled from "C:\xampp\htdocs\joyeria\themes\javascript.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1697557635c766fe103-61428015%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:22:46
+         compiled from "C:\xampp\htdocs\joyeria\themes\javascript.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2875557587086c4cfd4-22177788%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5b0b34ba791b7c362c784dd68d661b44fb7c7f69' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\themes\\javascript.tpl',
-      1 => 1464909925,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '1697557635c766fe103-61428015',
+=======
+  'nocache_hash' => '2875557587086c4cfd4-22177788',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -27,9 +37,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c76794146_06462777',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c76794146_06462777')) {function content_57635c76794146_06462777($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+=======
+  'unifunc' => 'content_57587086e066c3_75240296',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57587086e066c3_75240296')) {function content_57587086e066c3_75240296($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\modifier.replace.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['js_def']->value)&&is_array($_smarty_tpl->tpl_vars['js_def']->value)&&count($_smarty_tpl->tpl_vars['js_def']->value)) {?>
 <script type="text/javascript">

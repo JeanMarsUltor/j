@@ -1,17 +1,27 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:05
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2167857635c75d56252-34722575%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-08 14:22:46
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\header.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:10306575870868d2503-01759284%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'dc3119a5a6a90510f040a5313c61c48e7e9cd893' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\header.tpl',
-      1 => 1464909876,
+      1 => 1460131476,
       2 => 'file',
     ),
   ),
+<<<<<<< HEAD
   'nocache_hash' => '2167857635c75d56252-34722575',
+=======
+  'nocache_hash' => '10306575870868d2503-01759284',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -75,9 +85,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c760cf169_69322552',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c760cf169_69322552')) {function content_57635c760cf169_69322552($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_57587086c29d57_39870914',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57587086c29d57_39870914')) {function content_57587086c29d57_39870914($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6 " lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
@@ -256,7 +272,11 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 				<?php }?>
 				<ul id="header_notifs_icon_wrapper">
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_orders']->value;?>
+<<<<<<< HEAD
 <?php $_tmp2=ob_get_clean();?><?php if ($_tmp2==1) {?>
+=======
+<?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 					<li id="orders_notif" class="dropdown" data-type="order">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-shopping-cart"></i>
@@ -286,7 +306,11 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 					</li>
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_customers']->value;?>
+<<<<<<< HEAD
 <?php $_tmp3=ob_get_clean();?><?php if ($_tmp3==1) {?>
+=======
+<?php $_tmp4=ob_get_clean();?><?php if ($_tmp4==1) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 					<li id="customers_notif" class="dropdown" data-type="customer">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-user"></i>
@@ -316,7 +340,11 @@ $_smarty_tpl->tpl_vars['mediaie9']->_loop = true;
 					</li>
 <?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['show_new_messages']->value;?>
+<<<<<<< HEAD
 <?php $_tmp4=ob_get_clean();?><?php if ($_tmp4==1) {?>
+=======
+<?php $_tmp5=ob_get_clean();?><?php if ($_tmp5==1) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 					<li id="customer_messages_notif" class="dropdown" data-type="customer_message">
 						<a href="javascript:void(0);" class="dropdown-toggle notifs" data-toggle="dropdown">
 							<i class="icon-envelope"></i>
@@ -358,7 +386,11 @@ foreach ($_from as $_smarty_tpl->tpl_vars['quick']->key => $_smarty_tpl->tpl_var
 $_smarty_tpl->tpl_vars['quick']->_loop = true;
 ?>
 								<li <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['quick']->value['link'];?>
+<<<<<<< HEAD
 <?php $_tmp5=ob_get_clean();?><?php if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_tmp5)) {?><?php $_smarty_tpl->tpl_vars["matchQuickLink"] = new Smarty_variable($_smarty_tpl->tpl_vars['quick']->value['id_quick_access'], null, 0);?>class="active"<?php }?>>
+=======
+<?php $_tmp6=ob_get_clean();?><?php if ($_smarty_tpl->tpl_vars['link']->value->matchQuickLink($_tmp6)) {?><?php $_smarty_tpl->tpl_vars["matchQuickLink"] = new Smarty_variable($_smarty_tpl->tpl_vars['quick']->value['id_quick_access'], null, 0);?>class="active"<?php }?>>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 									<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['quick']->value['link'], ENT_QUOTES, 'UTF-8', true);?>
 "<?php if ($_smarty_tpl->tpl_vars['quick']->value['new_window']) {?> class="_blank"<?php }?>>
 										<?php if (isset($_smarty_tpl->tpl_vars['quick']->value['icon'])) {?>
@@ -462,7 +494,11 @@ $_smarty_tpl->tpl_vars['quick']->_loop = true;
 						</li>
 					<?php }?>
 <?php ob_start();?><?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+<<<<<<< HEAD
 <?php $_tmp6=ob_get_clean();?><?php if ($_tmp6) {?>
+=======
+<?php $_tmp7=ob_get_clean();?><?php if ($_tmp7) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 					<li>
 						<a href="<?php if (isset($_smarty_tpl->tpl_vars['base_url_tc']->value)) {?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['base_url_tc']->value, ENT_QUOTES, 'UTF-8', true);?>
 <?php } else { ?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['base_url']->value, ENT_QUOTES, 'UTF-8', true);?>

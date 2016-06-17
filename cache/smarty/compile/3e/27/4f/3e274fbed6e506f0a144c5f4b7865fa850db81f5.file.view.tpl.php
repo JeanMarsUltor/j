@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:14:01
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\dashboard\helpers\view\view.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2203457635ce92cc030-08903289%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\dashboard\helpers\view\view.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2242857573e41e9a066-49229454%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3e274fbed6e506f0a144c5f4b7865fa850db81f5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\controllers\\dashboard\\helpers\\view\\view.tpl',
+<<<<<<< HEAD
       1 => 1464909874,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2203457635ce92cc030-08903289',
+=======
+      1 => 1460131476,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2242857573e41e9a066-49229454',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -33,9 +47,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635ce93c6650_68701508',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635ce93c6650_68701508')) {function content_57635ce93c6650_68701508($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_57573e42003ab4_03597407',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e42003ab4_03597407')) {function content_57573e42003ab4_03597407($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 <script>
 	var dashboard_ajax_url = '<?php echo $_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminDashboard');?>
 ';

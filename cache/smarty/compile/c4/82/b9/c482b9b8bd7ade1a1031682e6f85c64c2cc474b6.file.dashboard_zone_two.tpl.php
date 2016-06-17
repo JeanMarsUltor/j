@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:14:00
          compiled from "C:\xampp\htdocs\joyeria\modules\dashtrends\views\templates\hook\dashboard_zone_two.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2467357635ce89d48f0-77916585%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:36:01
+         compiled from "C:\xampp\htdocs\joyeria\modules\dashtrends\views\templates\hook\dashboard_zone_two.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:581157573e41c444f9-87409601%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'c482b9b8bd7ade1a1031682e6f85c64c2cc474b6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\dashtrends\\views\\templates\\hook\\dashboard_zone_two.tpl',
+<<<<<<< HEAD
       1 => 1464909918,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '2467357635ce89d48f0-77916585',
+=======
+      1 => 1460131478,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '581157573e41c444f9-87409601',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -24,9 +38,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635ce8a2ac14_10273334',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635ce8a2ac14_10273334')) {function content_57635ce8a2ac14_10273334($_smarty_tpl) {?>
+=======
+  'unifunc' => 'content_57573e41c7ee90_23137640',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573e41c7ee90_23137640')) {function content_57573e41c7ee90_23137640($_smarty_tpl) {?>
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 <script>
 	var currency_format = <?php echo floatval($_smarty_tpl->tpl_vars['currency']->value->format);?>
 ;

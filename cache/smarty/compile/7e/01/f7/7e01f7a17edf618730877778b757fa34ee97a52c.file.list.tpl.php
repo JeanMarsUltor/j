@@ -1,17 +1,31 @@
+<<<<<<< HEAD
 <?php /* Smarty version Smarty-3.1.19, created on 2016-06-16 21:12:05
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\modules_list\list.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1621557635c7525a835-92877123%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+=======
+<?php /* Smarty version Smarty-3.1.19, created on 2016-06-07 16:21:11
+         compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\helpers\modules_list\list.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2959557573ac701bb04-93347390%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '7e01f7a17edf618730877778b757fa34ee97a52c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\helpers\\modules_list\\list.tpl',
+<<<<<<< HEAD
       1 => 1464909876,
       2 => 'file',
     ),
   ),
   'nocache_hash' => '1621557635c7525a835-92877123',
+=======
+      1 => 1460131476,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2959557573ac701bb04-93347390',
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
   'function' => 
   array (
   ),
@@ -24,9 +38,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
+<<<<<<< HEAD
   'unifunc' => 'content_57635c752f6e58_98876816',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57635c752f6e58_98876816')) {function content_57635c752f6e58_98876816($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+=======
+  'unifunc' => 'content_57573ac711d803_97932051',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_57573ac711d803_97932051')) {function content_57573ac711d803_97932051($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.counter.php';
+>>>>>>> 32619c462b8a879dec2ab16600dc740680ad7b38
 if (!is_callable('smarty_function_cycle')) include 'C:\\xampp\\htdocs\\joyeria\\tools\\smarty\\plugins\\function.cycle.php';
 ?>
 <div class="panel">
