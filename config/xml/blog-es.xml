@@ -13,12 +13,110 @@
 	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/es</link>
 	<description></description>
-	<lastBuildDate>Thu, 16 Jun 2016 09:01:12 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jun 2016 05:00:25 +0000</lastBuildDate>
 	<language>es-ES</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>Growth Hacking para Prestashop con Zapier Email Parser</title>
+		<link>https://www.prestashop.com/blog/es/rowth-hacking-para-prestashop-con-zapier-email-parser/</link>
+		<comments>https://www.prestashop.com/blog/es/rowth-hacking-para-prestashop-con-zapier-email-parser/#comments</comments>
+		<pubDate>Mon, 20 Jun 2016 05:00:25 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+		<category><![CDATA[zapier]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14499</guid>
+		<description><![CDATA[<p>Descubre una solución para conectar ¡Hola de nuevo! Hacía tiempo que no me pasaba a escribir por aquí, ¿verdad? Con lo que me gusta a mí este espacio. ¿Qué tal te va todo a ti? ¿Revisando y aprendiendo nuevas cosas que te puedan ayudar a incrementar tus ventas? Claro, como no. ¡Así me gusta! Ya [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/rowth-hacking-para-prestashop-con-zapier-email-parser/">Growth Hacking para Prestashop con Zapier Email Parser</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Descubre una solución para conectar</p>
+<p>¡Hola de nuevo! Hacía tiempo que no me pasaba a escribir por aquí, ¿verdad? Con lo que me gusta a mí este espacio. ¿Qué tal te va todo a ti? ¿Revisando y aprendiendo nuevas cosas que te puedan ayudar a incrementar tus ventas? Claro, como no. ¡Así me gusta! Ya sabes que nunca podemos dejar de innovar, ¿eh?<br />
+<span id="more-14499"></span></p>
+<p>Y de innovar va la cosa porque <b>hoy te traigo uno de esos posts que uno no puede publicar en su propio blog</b>. ¿Por qué? Pues porque me mantengo fiel a mi idea de que <a href="http://www.vcgs.net/blog/por-que-debes-publicar-tu-mejor-post/">tus mejores posts debes publicarlos en blogs ajenos</a>.</p>
+<p>En concreto, <b>te voy a enseñar cómo conectar fácilmente tu Prestashop con casi cualquier herramienta externa que se te ocurra</b>, de CRM, de Email Marketing, de Mensajería, de Social Media, etc.</p>
+<p>¿Te imaginas el potencial? ¿Te apetece? ¡Pues vamos!</p>
+<h2>Una pequeña introducción al problema y necesidad</h2>
+<p>Últimamente hablo mucho de <b>una herramienta que para mí es fundamental para cualquier Growth Hacker</b> y, si me lo permites, para cualquier persona. Se trata de Zapier, una plataforma online que nos permite automatizar tareas entre otras herramientas y plataformas a través de sus Apis. Por ponerte un ejemplo, <b>Zapier nos permitiría algo así como “cuando alguien se suscriba a mi lista de email, agrégalo automáticamente a mi sistema de gestión de clientes CRM”</b>. ¿Empiezas a ver el potencial?</p>
+<p>Por si no conocías Zapier, permíteme hacer referencia <a href="http://www.vcgs.net/blog/zapier-los-beneficios-zaping/">a este post</a> que publiqué en mi blog donde te explico detalladamente qué es, sus conceptos y algunos ejemplos. Verás cómo te enamoras.</p>
+<p><b>Pero tenemos un pequeño problema</b>: Zapier ofrece un catálogo de aplicaciones disponibles que ya supera las 500 pero, desgraciadamente, <b>Prestashop no es una de ellas</b>. Mucha gente me ha preguntado cómo podríamos conseguir solventar este problema y, aunque hay algunos addons no oficiales, la cosa no parecía ser fácil.</p>
+<p>Sin embargo, <b>la idea de hacer cosas</b> como “suscribe automáticamente cada nuevo cliente a mi plataforma de Email Marketing” o “Añade cada nuevo cliente a mi sistema de CRM” o incluso “Crea una nueva tarea en mi gestor de productividad cada vez que se produzca un nuevo pedido” <b>es demasiado atractiva como para rendirse a la primera. ¿Verdad?</b></p>
+<p>Por eso, yo que odio decir “no se puede”, me puse a investigar hasta que di con una solución: <a href="https://parser.zapier.com/">Zapier Email Parser</a>.</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-01.png"><img class="alignnone size-full wp-image-14536" alt="email-parser-post-01" src="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-01.png" width="1280" height="705" /></a></p>
+<h2>¿Qué es Zapier Email Parser?</h2>
+<p>Para entenderlo fácilmente, <b>Zapier Email Parser no es más que un sistema que nos permite interpretar los emails transaccionales</b> (que genera Prestashop), extraer los datos significativos y pasarlos a Zapier para poder utilizarlos en cualquiera de nuestras recetas.</p>
+<p>Dicho de otra forma. Si, con Prestashop no podemos decir “Cuando se produzca un nuevo pedido de Prestashop” porque no existe tal conexión. Sin embargo, sí que <b>podemos decir, “Cuando recibas un nuevo email en el Email Parser” y, a su vez, podemos escoger dónde se envían los emails de nuevos pedidos en Prestashop</b>.</p>
+<p>De este modo, <b>nos quedaría algo así</b>: “Cuando haya un nuevo pedido en Prestashop envía una copia del email al Email Parser que se encargará de interpretarlo, extraer los datos y pasarlos a Zapier para que podamos automatizar”. ¿Me sigues?</p>
+<p>¡Efectivamente! Veo en tu cara qué es lo que estás pensando. Si, <b>con Email Parser podemos conectar cualquier cosa que genere emails transaccionales, no sólo Prestashop</b>. ¡Eso es! ¡Lo has entendido!</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-05.png"><img class="alignnone size-full wp-image-14540" alt="email-parser-post-05" src="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-05.png" width="1280" height="800" /></a></p>
+<h2>Paso a Paso: ¿Cómo conectar Prestashop con Zapier?</h2>
+<p>Veeeenga, vale, todo mascadito… ¿Quieres una lista de pasos a seguir? ¡Pues aquí la tienes!</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-02.png"><img class="alignnone size-full wp-image-14537" alt="email-parser-post-02" src="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-02.png" width="773" height="368" /></a></p>
+<ol>
+<li><b>Registra una cuenta en Zapier y otra en Email Parser</b>. Que menos.</li>
+<li><b>Crea un nuevo Mailbox en Email Parser</b>. El Mailbox es una dirección de correo única y secreta (ojo, debes mantenerla en secreto) que usarás para comunicarte con el robot (Email Parser) de modo que, cada correo que reciba ahí, será interpretado y pasado a Zapier.</li>
+<li><b>Envía un primer correo transaccional de prueba</b>. Lo importante es que enseñes a Email Parser a interpretar los emails. Para ello, deberás enviarle un correo de prueba (con exactamente el mismo formato que los envía Prestashop) a la dirección que te indica.</li>
+<li><b>Mapea las variables</b>. Una vez recibido el email, podrás seleccionar las partes que contienen los datos y asignarles un nombre de variable. Ese nombre de variable podrás usarlo en tus recetas de Zapier.</li>
+<li><b>Acepta los cambios y pon en marcha el Email Parser</b>. Una vez que tengas definido el patrón del mail, es decir, que ya has indicado cómo debe ser interpretado, puedes ir a Zapier para configurar tus recetas y acciones a llevar a cabo.</li>
+<li><b>Asegúrate de que una copia de los emails se enviará a la dirección del Parser</b>. Por último, tienes que asegurarte de que una copia del email transaccional (de nuevo cliente, nuevo pedido, etc.) se enviará a la dirección única que has generado en el Parser. Para ello, puedes escoger usar redirecciones de email con tu proveedor de correo o bien configurar copia oculta en las opciones de Prestashop.</li>
+</ol>
+<p>¡Ya está! De verdad, es muy sencillo si entiendes el concepto. Es como si delegases esa tarea a otra persona solo que lo haces con un robot. A la persona, igualmente, tendrías que reenviarle los correos de confirmación para que los interpretase, ¿verdad?</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-04.png"><img class="alignnone size-full wp-image-14539" alt="email-parser-post-04" src="https://www.prestashop.com/blog/es/files/2016/05/email-parser-post-04.png" width="1280" height="705" /></a></p>
+<p>Pues es lo mismo. Echa un ojo, ponlo en práctica y verás como no es tan difícil.</p>
+<h2>Conclusiones finales</h2>
+<p>Dime cómo te sientes. <b>¿Estas alucinando? ¿Empiezas a ver el potencial y el mundo de posibilidades que se abren ante ti?</b> Seguro que sí.</p>
+<p><b>Hoy en día estamos obligados a construir sistemas que nos permitan una atención más personalizada y directa</b> de nuestros clientes a la par que las exigencias de un mundo globalizado y la alta competencia nos <b>obligan a hacer cada vez más y más</b>.</p>
+<p>Por eso <b>es inevitable que montemos sistemas automatizados que nos ayuden a ser competitivos y que liberen nuestra carga de trabajo</b> para poder dedicarnos a lo que sólo los humanos podemos hacer. ¿Si o no?</p>
+<p><b>Y este post es una apuesta por ello</b>. Aquí has descubierto cómo puedes potenciar al máximo tu tienda online con un montón de posibilidades que aún te quedan por descubrir.</p>
+<p><b>Dime, ¿qué te ha parecido? ¿Vas a empezar a probarlo?</b> ¿Se te ocurren truquitos y cositas que hacer? ¿Crees que podrías compartir con todos tus recetas y tu experiencia? ¡Cuenta, cuenta</p>
+<p>Sobre el autor:</p>
+<p><img class="wp-image-13837 alignleft" style="margin-top: -2px;margin-bottom: -14px" alt="Victor_campuzano" src="https://www.prestashop.com/blog/es/files/2016/01/Victor.jpg" width="80" height="80" /><b>Víctor Campuzano</b> – Director de Marketing Online en <a href="http://www.grupographic.com/servicios/servicios-de-marketing-online/">Grupo Graphic</a>, Blogger en <a href="http://www.vcgs.net/blog/">Vcgs.net</a>, formador y speaker. Ahora formándome como <a href="http://www.iebschool.com/programas/postgrado-growth-hacking/" target="_blank">Growth hacker en IEBS</a> <b> Twitter:<a href="http://www.twitter.com/vicampuzano">@vicampuzano</a>.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/rowth-hacking-para-prestashop-con-zapier-email-parser/">Growth Hacking para Prestashop con Zapier Email Parser</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/rowth-hacking-para-prestashop-con-zapier-email-parser/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Por qué los vendedores online deben utilizar la escucha activa en las redes sociales</title>
+		<link>https://www.prestashop.com/blog/es/por-que-los-vendedores-online-deben-utilizar-la-escucha-activa-en-las-redes-sociales/</link>
+		<comments>https://www.prestashop.com/blog/es/por-que-los-vendedores-online-deben-utilizar-la-escucha-activa-en-las-redes-sociales/#comments</comments>
+		<pubDate>Fri, 17 Jun 2016 09:39:32 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14618</guid>
+		<description><![CDATA[<p>¿No te parece que, cada vez que enciendes el ordenador o lees noticias sobre tecnología, encuentras una nueva aplicación o novedad que te llama la atención? Puede que por eso reacciones con escepticismo cuando nuevas palabras como “social listening” o “escucha activa” se ponen de moda e invaden las noticias. Aunque la escucha activa en [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/por-que-los-vendedores-online-deben-utilizar-la-escucha-activa-en-las-redes-sociales/">Por qué los vendedores online deben utilizar la escucha activa en las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>¿No te parece que, cada vez que enciendes el ordenador o lees noticias sobre tecnología, encuentras una nueva aplicación o novedad que te llama la atención? Puede que por eso reacciones con escepticismo cuando nuevas palabras como “social listening” o “escucha activa” se ponen de moda e invaden las noticias. Aunque la escucha activa en las redes sociales parezca una moda pasajera más, puede resultar de gran utilidad para las tiendas online. En el artículo de hoy, te enseñaremos por qué.<br />
+<span id="more-14618"></span></p>
+<h2 style="color:#3f3679">¿Qué es la escucha activa en las redes sociales?</h2>
+<p>La escucha activa en las redes sociales es exactamente lo que parece: escuchar y controlar todo lo que se cuece en las redes sociales. En general, la escucha activa implica realizar un seguimiento de los hashtags para seguir las conversaciones. Los temas que sigas pueden ser tan amplios o limitados como quieras. Basta con controlar lo que la comunidad digital dice para saber qué temas están de moda en un momento determinado. Y lo que es más importante, podrás presenciar cómo reacciona la comunidad ante estos eventos.  </p>
+<h2 style="color:#3f3679">¿Qué tiene que ver la escucha activa en las redes sociales con mi tienda online?</h2>
+<p>Si tu tienda online se encuentra en el espacio digital, deberías controlar lo que la gente dice. Estas son las dos razones principales por las que un vendedor online debería utilizar la escucha activa en las redes sociales: <strong>los amigos y lo que piensan</strong>. </p>
+<h4 style="color:#3f3679">1) Atiende las reclamaciones de los clientes en tiempo real</h4>
+<p>La escucha activa en las redes sociales es una buena forma de estar al tanto de cualquier problema que tengan los clientes. Si tu línea de asistencia telefónica no funciona y nadie consigue contactarte, seguramente te enterarás antes por las redes sociales. Con la escucha activa, podrás reaccionar ante cualquier problema en tiempo real y ofrecer <a href="https://www.prestashop.com/blog/es/utilice-las-redes-sociales-para-mejorar-su-servicio-al-cliente/">asistencia a los clientes</a> de inmediato. </p>
+<h4 style="color:#3f3679">2) Conoce las opiniones de tus clientes</h4>
+<p>Con toda la gente que habla y comparte contenidos en las redes sociales, podrás obtener opiniones sinceras y sin filtrar sobre tus productos, sin tener que realizar los típicos cuestionarios y sondeos de marketing. Solo con escuchar lo que dicen tus clientes, obtendrás opiniones imparciales de forma constante y gratuita. Además, es la forma más discreta de recabar información sobre tu tienda. </p>
+<h4 style="color:#3f3679">3) Descubre las tendencias del sector</h4>
+<p>Si tienes los oídos bien abiertos y escuchas lo que dice la comunidad digital, podrás situarte a la cabeza de las tendencias del sector. Sabrás qué productos concretos están de moda o triunfan en las redes sociales por la gran cantidad de veces que se comparten o retuitean o por el número de “me gusta” o pins que obtienen. Los clientes aprueban un producto o una tendencia compartiéndolo con sus amigos. Si esos amigos comparten a su vez el producto, es señal de que el producto recibe una buena acogida entre los clientes. Y si sabes lo que le gusta a la gente, podrás planificar tus existencias de forma acorde.</p>
+<h2 style="color:#3f3679">Cómo empezar</h2>
+<ol>
+<li><strong>Crea</strong> una lista con los temas y palabras clave que te gustaría seguir.</li>
+<li><strong>Activa</strong> notificaciones con una <a href="https://www.brandwatch.com/2013/08/top-10-free-social-media-monitoring-tools/" target="_blank">herramienta de escucha activa en las redes sociales</a>. Si usas una plataforma para distribuir contenidos en las redes sociales, normalmente incluirá también una herramienta de escucha activa.</li>
+<li>Dedica tiempo a <strong>analizar</strong> tus resultados. No sirve de nada crear notificaciones si no tienes tiempo de consultarlas.</li>
+<li>Si crees que no hay nada relevante, <strong>adapta</strong> tus palabras clave para que sean más específicas.</li>
+<li><strong>Responde</strong> rápidamente e <strong>interactúa</strong> con tus comunidades online</li>
+</ol>
+<hr width="20%" align="left">
+<p>¿Vas a poner en práctica la escucha activa para tu tienda online? No dudes en escribir un comentario más abajo para compartir tus resultados más sorprendentes. ¿Has encontrado un producto que está de moda y quieres empezar a vender online? Abre tu <a href="http://www.prestashop.com/">tienda online con PrestaShop</a>. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/por-que-los-vendedores-online-deben-utilizar-la-escucha-activa-en-las-redes-sociales/">Por qué los vendedores online deben utilizar la escucha activa en las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/por-que-los-vendedores-online-deben-utilizar-la-escucha-activa-en-las-redes-sociales/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Los cinco errores de la venta online</title>
 		<link>https://www.prestashop.com/blog/es/los-cinco-errores-de-la-venta-online/</link>
 		<comments>https://www.prestashop.com/blog/es/los-cinco-errores-de-la-venta-online/#comments</comments>
@@ -400,50 +498,6 @@ Según la National Retail Federation de Estados Unidos, se espera que las ventas
 <p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/">4 consejos para realizar el SEO de tu sitio web de e-commerce con éxito</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</title>
-		<link>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/</link>
-		<comments>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/#comments</comments>
-		<pubDate>Tue, 24 May 2016 08:00:30 +0000</pubDate>
-		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
-				<category><![CDATA[Consejos E-commerce]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14469</guid>
-		<description><![CDATA[<p>Cuando Charles Bellanné fundó Monsieur Chaussure hace cuatro años, soñaba con una tienda física. Por desgracia, tuvo que conformarse con un negocio online debido a la falta de recursos. En la actualidad, Monsieur Chaussure envía sus pedidos a más de cincuenta países diferentes, avalado por una comunidad de 35 000 clientes, ¡y cuenta con su [...]</p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/">Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Cuando Charles Bellanné fundó <a href="https://www.monsieurchaussure.com/en/" target="_blank">Monsieur Chaussure</a> hace cuatro años, soñaba con una tienda física. Por desgracia, tuvo que conformarse con un negocio online debido a la falta de recursos. En la actualidad, <a href="https://www.monsieurchaussure.com/en/" target="_blank">Monsieur Chaussure</a> envía sus pedidos a más de cincuenta países diferentes, avalado por una comunidad de 35 000 clientes, ¡y cuenta con su propia tienda física! Descubre en el vídeo de hoy cómo un aficionado al calzado convirtió un vacío en el mercado en una empresa de éxito internacional con PrestaShop.<br />
-<span id="more-14469"></span></p>
-<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
-<p><iframe width="700" height="394" src="https://www.youtube.com/embed/SS0gWs8rXwQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=Youtube-launch&amp;utm_content=monsieurchaussure" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/">Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>3 consejos para crear tu sitio web de e-commerce con una agencia web</title>
-		<link>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/</link>
-		<comments>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/#comments</comments>
-		<pubDate>Tue, 17 May 2016 08:11:59 +0000</pubDate>
-		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
-				<category><![CDATA[Consejos E-commerce]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14466</guid>
-		<description><![CDATA[<p>Recurrir a una agencia web es una alternativa ideal para beneficiarse de sus conocimientos profesionales y crear un negocio online supereficaz. Sin embargo, también puede ser motivo de preocupaciones si no transmites las buenas directrices al equipo. Hoy, Armando Salvador, director de proyectos y formación en Ecomm360, nos explica algunos consejos para mejorar la comunicación [...]</p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/">3 consejos para crear tu sitio web de e-commerce con una agencia web</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>Recurrir a una agencia web es una alternativa ideal para beneficiarse de sus conocimientos profesionales y crear un negocio online supereficaz. Sin embargo, también puede ser motivo de preocupaciones si no transmites las buenas directrices al equipo. Hoy, Armando Salvador, director de proyectos y formación en Ecomm360, nos explica algunos consejos para mejorar la comunicación con tu agencia y aprovechar al máximo tu inversión.<br />
-<span id="more-14466"></span></p>
-<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
-<p><iframe width="700" height="394" src="https://www.youtube.com/embed/IjCDoA25Un0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
-<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=Youtube-launch&#038;utm_content=ecomm360" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/">3 consejos para crear tu sitio web de e-commerce con una agencia web</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
