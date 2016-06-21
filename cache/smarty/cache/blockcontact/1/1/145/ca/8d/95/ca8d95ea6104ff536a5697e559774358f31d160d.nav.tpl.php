@@ -10,18 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1455457641e781d1538-83092717',
-  'variables' => 
-  array (
-    'is_logged' => 0,
-    'link' => 0,
-    'telnumber' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57641e781fc404_15290432',
+  'unifunc' => 'content_57696a5567b536_27741626',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57641e781fc404_15290432')) {function content_57641e781fc404_15290432($_smarty_tpl) {?><div id="contact-link" >
+<?php if ($_valid && !is_callable('content_57696a5567b536_27741626')) {function content_57696a5567b536_27741626($_smarty_tpl) {?><div id="contact-link" >
 	<a href="http://localhost:8888/joyeria/contactanos" title="Contacte con nosotros">Contacte con nosotros</a>
 </div>
 	<span class="shop-phone">
