@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '767157641e77b31454-87142370',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57696a54ae0531_21435632',
+  'unifunc' => 'content_5796743de02647_23641849',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57696a54ae0531_21435632')) {function content_57696a54ae0531_21435632($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5796743de02647_23641849')) {function content_5796743de02647_23641849($_smarty_tpl) {?>
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-xs-12 col-sm-2">
 	<h4>Categorías</h4>
@@ -43,6 +43,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	href="http://localhost:8888/joyeria/4-mujer" title="Aqui encontraras todos los productos de joyeria para mujeres">
 		Mujer
 	</a>
+			<ul>
+												
+<li class="last">
+	<a 
+	href="http://localhost:8888/joyeria/9-gargantillas" title="Gargantillas">
+		Gargantillas
+	</a>
+	</li>
+
+									</ul>
 	</li>
 
 							
@@ -74,10 +84,93 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 							
 																
-<li class="last">
+<li >
 	<a 
 	href="http://localhost:8888/joyeria/8-joyeria-italiana" title="Linea Italiana de joyeria">
 		Joyeria Italiana
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/10-pulseras" title="">
+		Pulseras
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/11-collares" title="">
+		Collares
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/12-9p-" title="">
+		9p:
+	</a>
+			<ul>
+												
+<li class="last">
+	<a 
+	href="http://localhost:8888/joyeria/13-localhost-8888" title="">
+		localhost:8888
+	</a>
+			<ul>
+												
+<li class="last">
+	<a 
+	href="http://localhost:8888/joyeria/14-joyeria" title="">
+		joyeria
+	</a>
+	</li>
+
+									</ul>
+	</li>
+
+									</ul>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/18-91" title="">
+		91
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/19-91" title="">
+		91
+	</a>
+	</li>
+
+							
+																
+<li >
+	<a 
+	href="http://localhost:8888/joyeria/20-91" title="">
+		91
+	</a>
+	</li>
+
+							
+																
+<li class="last">
+	<a 
+	href="http://localhost:8888/joyeria/21-91" title="">
+		91
 	</a>
 	</li>
 
