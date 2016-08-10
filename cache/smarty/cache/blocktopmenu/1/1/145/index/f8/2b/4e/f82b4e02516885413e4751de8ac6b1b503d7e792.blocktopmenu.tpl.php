@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1910757641e77056cd0-41087080',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5796743d5e40e8_86532767',
+  'unifunc' => 'content_57aa454551e885_01135498',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5796743d5e40e8_86532767')) {function content_5796743d5e40e8_86532767($_smarty_tpl) {?>	<!-- Menu -->
+<?php if ($_valid && !is_callable('content_57aa454551e885_01135498')) {function content_57aa454551e885_01135498($_smarty_tpl) {?>	<!-- Menu -->
 	<div id="block_top_menu" class="sf-contener clearfix col-lg-12">
 		<div class="cat-title">Menú</div>
 		<ul class="sf-menu clearfix menu-content">
-			<li><a href="http://localhost:8888/joyeria/6-acero-inoxidable" title="Acero inoxidable">Acero inoxidable</a></li>
+			<li><a href="http://localhost:8888/joyeria/6-acero-inoxidable" title="Acero inoxidable">Acero inoxidable</a></li><li><a href="http://localhost:8888/joyeria/9-gargantillas" title="Gargantillas">Gargantillas</a></li><li><a href="http://localhost:8888/joyeria/11-collares" title="Collares">Collares</a></li><li><a href="http://localhost:8888/joyeria/10-pulseras" title="Pulseras">Pulseras</a></li>
 					</ul>
 	</div>
 	<!--/ Menu -->

@@ -113,21 +113,14 @@
 		<module name="amzpayments"/>
 		<module name="authorizeaim"/>
 		<module name="avalaratax"/>
-		<module name="bluepay"/>
 		<module name="bluesnap"/>
-		<module name="boxdropshipment"/>
 		<module name="bpostshm"/>
-		<module name="checkyourdata"/>
 		<module name="chronopost"/>
-		<module name="desjardins"/>
 		<module name="dotpay"/>
 		<module name="dpdfrance"/>
-		<module name="dpdgroup"/>
-		<module name="dpdpoland"/>
 		<module name="easymarketing"/>
 		<module name="ebay"/>
 		<module name="envoimoinscher"/>
-		<module name="erpillicopresta"/>
 		<module name="expressmailing"/>
 		<module name="fianetfraud"/>
 		<module name="fianetsceau"/>
@@ -170,17 +163,17 @@
 		<module name="riskified"/>
 		<module name="selldorado"/>
 		<module name="sendinblue"/>
-		<module name="shiptomyid"/>
 		<module name="shoppingfeedexport"/>
 		<module name="shoppingfluxexport"/>
 		<module name="simplifycommerce"/>
 		<module name="skebby"/>
 		<module name="socolissimo"/>
 		<module name="sofortbanking"/>
+		<module name="steerfox"/>
 		<module name="tntcarrier"/>
 		<module name="trustedshops"/>
 		<module name="vtpayment"/>
-		<module name="yotpo"/>
+		<module name="worldpay"/>
 		<module name="yousticeresolutionsystem"/>
 	</modules>
 </modules_list>
