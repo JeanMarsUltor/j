@@ -1,4 +1,5 @@
 cd C:\xampp\htdocs\joyeria
+copy silverzum.sql silverzum_bkup.sql
 mysqldump -u root silverzum > silverzum.sql
 copy silverzum.sql silverzum_web.sql
 fart -- "silverzum_web.sql" "localhost:8888" "www.silverzum.com"
