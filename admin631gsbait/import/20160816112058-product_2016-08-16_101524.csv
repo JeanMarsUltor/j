@@ -1,0 +1,352 @@
+ID;Imagen;Nombre;Referencia;Categoría;Precio base;Precio final;Cantidad;Estado
+125;http://localhost:8888/joyeria/img/p/1/2/5/125.jpg;Broquel bvlgari clasico 6mm;125;Mujer;0;0;200;1
+622;http://localhost:8888/joyeria/img/p/6/2/2/622.jpg;Pulsera;622;Raíz;108;194.4;200;1
+508;http://localhost:8888/joyeria/img/p/5/0/8/508.jpg;Gargantilla;508;Raíz;68;122.4;200;1
+60;http://localhost:8888/joyeria/img/p/6/0/60.jpg;Arete tiffany corazon turquesa;60;Mujer;0;0;200;1
+558;http://localhost:8888/joyeria/img/p/5/5/8/558.jpg;Pulsera;558;Raíz;102;183.6;200;1
+35;http://localhost:8888/joyeria/img/p/3/5/35.jpg;Anillo alianza tiffany corazon;35;Mujer;0;0;200;1
+100;http://localhost:8888/joyeria/img/p/1/0/0/100.jpg;Juego bvlgari gota;100;Mujer;0;0;200;1
+597;http://localhost:8888/joyeria/img/p/5/9/7/597.jpg;Pulsera;597;Raíz;63;113.4;200;1
+166;http://localhost:8888/joyeria/img/p/1/6/6/166.jpg;Broquel cartier tornillo;166;Mujer;0;0;200;1
+664;http://localhost:8888/joyeria/img/p/6/6/4/664.jpg;Collar;664;Raíz;335;603;200;1
+547;http://localhost:8888/joyeria/img/p/5/4/7/547.jpg;Gargantilla;547;Raíz;325;585;200;1
+10;http://localhost:8888/joyeria/img/p/1/0/10.jpg;Pulso bvlgari;10;Mujer;0;0;200;1
+74;http://localhost:8888/joyeria/img/p/7/4/74.jpg;Arete channel perla;74;Mujer;0;0;200;1
+572;http://localhost:8888/joyeria/img/p/5/7/2/572.jpg;Pulsera;572;Raíz;82;147.6;200;1
+140;http://localhost:8888/joyeria/img/p/1/4/0/140.jpg;Juego channel rombo;140;Mujer;0;0;200;1
+636;http://localhost:8888/joyeria/img/p/6/3/6/636.jpg;Collar;636;Raíz;311;559.8;200;1
+522;http://localhost:8888/joyeria/img/p/5/2/2/522.jpg;Gargantilla;522;Raíz;109;196.2;200;1
+49;http://localhost:8888/joyeria/img/p/4/9/49.jpg;Pulso rolex ancla;49;Mujer;0;0;200;1
+114;http://localhost:8888/joyeria/img/p/1/1/4/114.jpg;Juego cartier sencillo;114;Mujer;0;0;200;1
+611;http://localhost:8888/joyeria/img/p/6/1/1/611.jpg;Pulsera;611;Raíz;57;102.6;200;1
+497;http://localhost:8888/joyeria/img/p/4/9/7/497.jpg;Gargantilla;497;Raíz;260;468;200;1
+24;http://localhost:8888/joyeria/img/p/2/4/24.jpg;Pulso tiffany corazon grueso;24;Mujer;0;0;200;1
+89;http://localhost:8888/joyeria/img/p/8/9/89.jpg;Juego candado de channel;89;Mujer;0;0;200;1
+586;http://localhost:8888/joyeria/img/p/5/8/6/586.jpg;Pulsera;586;Raíz;37;66.6;200;1
+155;http://localhost:8888/joyeria/img/p/1/5/5/155.jpg;Juego cartier tornillo;155;Mujer;0;0;200;1
+653;http://localhost:8888/joyeria/img/p/6/5/3/653.jpg;Collar;653;Raíz;211;379.8;200;1
+536;http://localhost:8888/joyeria/img/p/5/3/6/536.jpg;Gargantilla;536;Raíz;226;406.8;200;1
+561;http://localhost:8888/joyeria/img/p/5/6/1/561.jpg;Pulsera;561;Raíz;100;180;200;1
+128;http://localhost:8888/joyeria/img/p/1/2/8/128.jpg;Broquel corazon cartier;128;Mujer;0;0;200;1
+625;http://localhost:8888/joyeria/img/p/6/2/5/625.jpg;Pulsera;625;Raíz;68;122.4;200;1
+511;http://localhost:8888/joyeria/img/p/5/1/1/511.jpg;Gargantilla;511;Raíz;177;318.6;200;1
+63;http://localhost:8888/joyeria/img/p/6/3/63.jpg;Juego channel zirconia;63;Mujer;0;0;200;1
+38;http://localhost:8888/joyeria/img/p/3/8/38.jpg;Juego cartier tornillo;38;Mujer;0;0;200;1
+103;http://localhost:8888/joyeria/img/p/1/0/3/103.jpg;Juego bvlgari oval;103;Mujer;0;0;200;1
+600;http://localhost:8888/joyeria/img/p/6/0/0/600.jpg;Pulsera;600;Raíz;127;228.6;200;1
+169;http://localhost:8888/joyeria/img/p/1/6/9/169.jpg;Juego cadenas der bvlgari;169;Mujer;0;0;200;1
+667;http://localhost:8888/joyeria/img/p/6/6/7/667.jpg;Collar;667;Raíz;178;320.4;200;1
+550;http://localhost:8888/joyeria/img/p/5/5/0/550.jpg;Gargantilla;550;Raíz;164;295.2;200;1
+13;http://localhost:8888/joyeria/img/p/1/3/13.jpg;Juego bvlgari onix 3 cz;13;Mujer;0;0;200;1
+77;http://localhost:8888/joyeria/img/p/7/7/77.jpg;Pulso bvlgari zirconia;77;Mujer;0;0;200;1
+575;http://localhost:8888/joyeria/img/p/5/7/5/575.jpg;Pulsera;575;Raíz;63;113.4;200;1
+144;http://localhost:8888/joyeria/img/p/1/4/4/144.jpg;Juego channel rombo bicolor;144;Mujer;0;0;200;1
+639;http://localhost:8888/joyeria/img/p/6/3/9/639.jpg;Collar;639;Raíz;162;291.6;200;1
+525;http://localhost:8888/joyeria/img/p/5/2/5/525.jpg;Gargantilla;525;Raíz;207;372.6;200;1
+52;http://localhost:8888/joyeria/img/p/5/2/52.jpg;Pulso flecha rolex;52;Mujer;0;0;200;1
+117;http://localhost:8888/joyeria/img/p/1/1/7/117.jpg;Pulso channel clasico;117;Mujer;0;0;200;1
+614;http://localhost:8888/joyeria/img/p/6/1/4/614.jpg;Pulsera;614;Raíz;88;158.4;200;1
+500;http://localhost:8888/joyeria/img/p/5/0/0/500.jpg;Gargantilla;500;Raíz;156;280.8;200;1
+27;http://localhost:8888/joyeria/img/p/2/7/27.jpg;Media arracada cartier;27;Mujer;0;0;200;1
+92;http://localhost:8888/joyeria/img/p/9/2/92.jpg;Juego channel rombo;92;Mujer;0;0;200;1
+589;http://localhost:8888/joyeria/img/p/5/8/9/589.jpg;Pulsera;589;Raíz;196;352.8;200;1
+158;http://localhost:8888/joyeria/img/p/1/5/8/158.jpg;Juego bvulgari 3 argollas;158;Mujer;0;0;200;1
+656;http://localhost:8888/joyeria/img/p/6/5/6/656.jpg;Collar;656;Raíz;235;423;200;1
+539;http://localhost:8888/joyeria/img/p/5/3/9/539.jpg;Gargantilla;539;Raíz;321;577.8;200;1
+66;http://localhost:8888/joyeria/img/p/6/6/66.jpg;Huggie mk rombo;66;Mujer;0;0;200;1
+564;http://localhost:8888/joyeria/img/p/5/6/4/564.jpg;Pulsera;564;Raíz;76;136.8;200;1
+131;http://localhost:8888/joyeria/img/p/1/3/1/131.jpg;Juego mk zirconia con onix;131;Mujer;0;0;200;1
+628;http://localhost:8888/joyeria/img/p/6/2/8/628.jpg;Pulsera;628;Raíz;139;250.2;200;1
+514;http://localhost:8888/joyeria/img/p/5/1/4/514.jpg;Gargantilla;514;Raíz;93;167.4;200;1
+1;http://localhost:8888/joyeria/img/p/1/1.jpg;Juego bvlgari;1;Mujer;0;0;200;1
+41;http://localhost:8888/joyeria/img/p/4/1/41.jpg;Juego cuadro tous madre perla;41;Mujer;0;0;200;1
+106;http://localhost:8888/joyeria/img/p/1/0/6/106.jpg;Juego cartier 2 zirconias;106;Mujer;0;0;200;1
+603;http://localhost:8888/joyeria/img/p/6/0/3/603.jpg;Pulsera;603;Raíz;135;243;200;1
+489;http://localhost:8888/joyeria/img/p/4/8/9/489.jpg;Gargantilla;489;Raíz;297;534.6;200;1
+670;http://localhost:8888/joyeria/img/p/6/7/0/670.jpg;Collar;670;Raíz;114;205.2;200;1
+553;http://localhost:8888/joyeria/img/p/5/5/3/553.jpg;Gargantilla;553;Raíz;208;374.4;200;1
+16;http://localhost:8888/joyeria/img/p/1/6/16.jpg;Juego bvlgari zirconia;16;Mujer;0;0;200;1
+80;http://localhost:8888/joyeria/img/p/8/0/80.jpg;Pulso mk animal print;80;Mujer;0;0;200;1
+578;http://localhost:8888/joyeria/img/p/5/7/8/578.jpg;Pulsera;578;Raíz;90;162;200;1
+147;http://localhost:8888/joyeria/img/p/1/4/7/147.jpg;Juego bvlgari flor;147;Mujer;0;0;200;1
+642;http://localhost:8888/joyeria/img/p/6/4/2/642.jpg;Collar;642;Raíz;316;568.8;200;1
+528;http://localhost:8888/joyeria/img/p/5/2/8/528.jpg;Gargantilla;528;Raíz;198;356.4;200;1
+503;http://localhost:8888/joyeria/img/p/5/0/3/503.jpg;Gargantilla;503;Raíz;270;486;200;1
+55;http://localhost:8888/joyeria/img/p/5/5/55.jpg;Broquel bvlgari colgante zirconia;55;Mujer;0;0;200;1
+120;http://localhost:8888/joyeria/img/p/1/2/0/120.jpg;Broquel cartier madre perla;120;Mujer;0;0;200;1
+617;http://localhost:8888/joyeria/img/p/6/1/7/617.jpg;Pulsera;617;Raíz;84;151.2;200;1
+30;http://localhost:8888/joyeria/img/p/3/0/30.jpg;Anillo cartier zirconia;30;Mujer;0;0;200;1
+95;http://localhost:8888/joyeria/img/p/9/5/95.jpg;Juego tous madre perla y onix;95;Mujer;0;0;200;1
+592;http://localhost:8888/joyeria/img/p/5/9/2/592.jpg;Pulsera;592;Raíz;88;158.4;200;1
+161;http://localhost:8888/joyeria/img/p/1/6/1/161.jpg;Broquel tous perla;161;Mujer;0;0;200;1
+659;http://localhost:8888/joyeria/img/p/6/5/9/659.jpg;Collar;659;Raíz;201;361.8;200;1
+542;http://localhost:8888/joyeria/img/p/5/4/2/542.jpg;Gargantilla;542;Raíz;252;453.6;200;1
+69;http://localhost:8888/joyeria/img/p/6/9/69.jpg;Juego cartier corazon madre perla;69;Mujer;0;0;200;1
+567;http://localhost:8888/joyeria/img/p/5/6/7/567.jpg;Pulsera;567;Raíz;59;106.2;200;1
+134;http://localhost:8888/joyeria/img/p/1/3/4/134.jpg;Juego channel logo;134;Mujer;0;0;200;1
+631;http://localhost:8888/joyeria/img/p/6/3/1/631.jpg;Collar;631;Raíz;143;257.4;200;1
+517;http://localhost:8888/joyeria/img/p/5/1/7/517.jpg;Gargantilla;517;Raíz;177;318.6;200;1
+5;http://localhost:8888/joyeria/img/p/5/5.jpg;Pulso Tous;5;Mujer;0;0;200;1
+44;http://localhost:8888/joyeria/img/p/4/4/44.jpg;Broquel redondo cartier con lineas;44;Mujer;0;0;200;1
+109;http://localhost:8888/joyeria/img/p/1/0/9/109.jpg;Juego channel zirconia;109;Mujer;0;0;200;1
+606;http://localhost:8888/joyeria/img/p/6/0/6/606.jpg;Pulsera;606;Raíz;57;102.6;200;1
+492;http://localhost:8888/joyeria/img/p/4/9/2/492.jpg;Gargantilla;492;Raíz;172;309.6;200;1
+673;http://localhost:8888/joyeria/img/p/6/7/3/673.jpg;Collar;673;Raíz;208;374.4;200;1
+19;http://localhost:8888/joyeria/img/p/1/9/19.jpg;Juego tous marco zirconia;19;Mujer;0;0;200;1
+83;http://localhost:8888/joyeria/img/p/8/3/83.jpg;Pulso mk cuadro zirconia onix;83;Mujer;0;0;200;1
+581;http://localhost:8888/joyeria/img/p/5/8/1/581.jpg;Pulsera;581;Raíz;83;149.4;200;1
+150;http://localhost:8888/joyeria/img/p/1/5/0/150.jpg;Juego bvlgari madre perla;150;Mujer;0;0;200;1
+648;http://localhost:8888/joyeria/img/p/6/4/8/648.jpg;Collar;648;Raíz;198;356.4;200;1
+531;http://localhost:8888/joyeria/img/p/5/3/1/531.jpg;Gargantilla;531;Raíz;317;570.6;200;1
+620;http://localhost:8888/joyeria/img/p/6/2/0/620.jpg;Pulsera;620;Raíz;135;243;200;1
+506;http://localhost:8888/joyeria/img/p/5/0/6/506.jpg;Gargantilla;506;Raíz;223;401.4;200;1
+58;http://localhost:8888/joyeria/img/p/5/8/58.jpg;Arracada channel zirconia;58;Mujer;0;0;200;1
+556;http://localhost:8888/joyeria/img/p/5/5/6/556.jpg;Pulsera;556;Raíz;166;298.8;200;1
+123;http://localhost:8888/joyeria/img/p/1/2/3/123.jpg;Arete tiffanny argolla colgante;123;Mujer;0;0;200;1
+33;http://localhost:8888/joyeria/img/p/3/3/33.jpg;Juego mk con marquiz;33;Mujer;0;0;200;1
+98;http://localhost:8888/joyeria/img/p/9/8/98.jpg;Juego channel czirconia colgante;98;Mujer;0;0;200;1
+595;http://localhost:8888/joyeria/img/p/5/9/5/595.jpg;Pulsera;595;Raíz;43;77.4;200;1
+164;http://localhost:8888/joyeria/img/p/1/6/4/164.jpg;Broquel tous zirconias;164;Mujer;0;0;200;1
+662;http://localhost:8888/joyeria/img/p/6/6/2/662.jpg;Collar;662;Raíz;198;356.4;200;1
+545;http://localhost:8888/joyeria/img/p/5/4/5/545.jpg;Gargantilla;545;Raíz;248;446.4;200;1
+8;http://localhost:8888/joyeria/img/p/8/8.jpg;Brazalete Mk;8;Mujer;0;0;200;1
+72;http://localhost:8888/joyeria/img/p/7/2/72.jpg;Juego channel trebol onix;72;Mujer;0;0;200;1
+570;http://localhost:8888/joyeria/img/p/5/7/0/570.jpg;Pulsera;570;Raíz;63;113.4;200;1
+137;http://localhost:8888/joyeria/img/p/1/3/7/137.jpg;Anillo de mk piel;137;Mujer;0;0;200;1
+634;http://localhost:8888/joyeria/img/p/6/3/4/634.jpg;Collar;634;Raíz;192;345.6;200;1
+520;http://localhost:8888/joyeria/img/p/5/2/0/520.jpg;Gargantilla;520;Raíz;146;262.8;200;1
+47;http://localhost:8888/joyeria/img/p/4/7/47.jpg;Pulso rolex eslabon clasico;47;Mujer;0;0;200;1
+112;http://localhost:8888/joyeria/img/p/1/1/2/112.jpg;Pulso channel canal zirconias;112;Mujer;0;0;200;1
+609;http://localhost:8888/joyeria/img/p/6/0/9/609.jpg;Pulsera;609;Raíz;57;102.6;200;1
+495;http://localhost:8888/joyeria/img/p/4/9/5/495.jpg;Gargantilla;495;Raíz;196;352.8;200;1
+22;http://localhost:8888/joyeria/img/p/2/2/22.jpg;Broquel tous;22;Mujer;0;0;200;1
+87;http://localhost:8888/joyeria/img/p/8/7/87.jpg;Pulso mk doble animal print;87;Mujer;0;0;200;1
+584;http://localhost:8888/joyeria/img/p/5/8/4/584.jpg;Pulsera;584;Raíz;55;99;200;1
+153;http://localhost:8888/joyeria/img/p/1/5/3/153.jpg;Juego channel perla;153;Mujer;0;0;200;1
+651;http://localhost:8888/joyeria/img/p/6/5/1/651.jpg;Collar;651;Raíz;223;401.4;200;1
+534;http://localhost:8888/joyeria/img/p/5/3/4/534.jpg;Gargantilla;534;Raíz;57;102.6;200;1
+126;http://localhost:8888/joyeria/img/p/1/2/6/126.jpg;Broquel cuadro de channel;126;Mujer;0;0;200;1
+623;http://localhost:8888/joyeria/img/p/6/2/3/623.jpg;Pulsera;623;Raíz;109;196.2;200;1
+509;http://localhost:8888/joyeria/img/p/5/0/9/509.jpg;Gargantilla;509;Raíz;197;354.6;200;1
+61;http://localhost:8888/joyeria/img/p/6/1/61.jpg;Broquel bvlgari onix rueda saliente;61;Mujer;0;0;200;1
+559;http://localhost:8888/joyeria/img/p/5/5/9/559.jpg;Pulsera;559;Raíz;65;117;200;1
+36;http://localhost:8888/joyeria/img/p/3/6/36.jpg;Juego triple argolla bvlgari;36;Mujer;0;0;200;1
+101;http://localhost:8888/joyeria/img/p/1/0/1/101.jpg;Juego bvlgari B;101;Mujer;0;0;200;1
+598;http://localhost:8888/joyeria/img/p/5/9/8/598.jpg;Pulsera;598;Raíz;52;93.6;200;1
+167;http://localhost:8888/joyeria/img/p/1/6/7/167.jpg;Broquel tous zirconias;167;Mujer;0;0;200;1
+665;http://localhost:8888/joyeria/img/p/6/6/5/665.jpg;Collar;665;Raíz;80;144;200;1
+548;http://localhost:8888/joyeria/img/p/5/4/8/548.jpg;Gargantilla;548;Raíz;325;585;200;1
+11;http://localhost:8888/joyeria/img/p/1/1/11.jpg;Pulso channel marquiz;11;Mujer;0;0;200;1
+75;http://localhost:8888/joyeria/img/p/7/5/75.jpg;Juego corazon cartier;75;Mujer;0;0;200;1
+573;http://localhost:8888/joyeria/img/p/5/7/3/573.jpg;Pulsera;573;Raíz;75;135;200;1
+141;http://localhost:8888/joyeria/img/p/1/4/1/141.jpg;Juego mk placa;141;Mujer;0;0;200;1
+637;http://localhost:8888/joyeria/img/p/6/3/7/637.jpg;Collar;637;Raíz;141;253.8;200;1
+523;http://localhost:8888/joyeria/img/p/5/2/3/523.jpg;Gargantilla;523;Raíz;150;270;200;1
+50;http://localhost:8888/joyeria/img/p/5/0/50.jpg;Pulso flecha rolex;50;Mujer;0;0;200;1
+115;http://localhost:8888/joyeria/img/p/1/1/5/115.jpg;Arracada mk con zirconias cuadros;115;Mujer;0;0;200;1
+612;http://localhost:8888/joyeria/img/p/6/1/2/612.jpg;Pulsera;612;Raíz;119;214.2;200;1
+498;http://localhost:8888/joyeria/img/p/4/9/8/498.jpg;Gargantilla;498;Raíz;239;430.2;200;1
+25;http://localhost:8888/joyeria/img/p/2/5/25.jpg;Broquel bvlgari madre perla;25;Mujer;0;0;200;1
+90;http://localhost:8888/joyeria/img/p/9/0/90.jpg;Juego channel clasico;90;Mujer;0;0;200;1
+587;http://localhost:8888/joyeria/img/p/5/8/7/587.jpg;Pulsera;587;Raíz;163;293.4;200;1
+156;http://localhost:8888/joyeria/img/p/1/5/6/156.jpg;Juego channel zirconias;156;Mujer;0;0;200;1
+654;http://localhost:8888/joyeria/img/p/6/5/4/654.jpg;Collar;654;Raíz;262;471.6;200;1
+537;http://localhost:8888/joyeria/img/p/5/3/7/537.jpg;Gargantilla;537;Raíz;260;468;200;1
+562;http://localhost:8888/joyeria/img/p/5/6/2/562.jpg;Pulsera;562;Raíz;49;88.2;200;1
+129;http://localhost:8888/joyeria/img/p/1/2/9/129.jpg;Broquel bvlgari pico;129;Mujer;0;0;200;1
+626;http://localhost:8888/joyeria/img/p/6/2/6/626.jpg;Pulsera;626;Raíz;94;169.2;200;1
+512;http://localhost:8888/joyeria/img/p/5/1/2/512.jpg;Gargantilla;512;Raíz;160;288;200;1
+64;http://localhost:8888/joyeria/img/p/6/4/64.jpg;Broquel llave tiffany;64;Mujer;0;0;200;1
+39;http://localhost:8888/joyeria/img/p/3/9/39.jpg;Juego cartier ceramica;39;Mujer;0;0;200;1
+104;http://localhost:8888/joyeria/img/p/1/0/4/104.jpg;Juego bvlgari cruz;104;Mujer;0;0;200;1
+601;http://localhost:8888/joyeria/img/p/6/0/1/601.jpg;Pulsera;601;Raíz;117;210.6;200;1
+170;http://localhost:8888/joyeria/img/p/1/7/0/170.jpg;Pulso channel doble zirconias;170;Mujer;0;0;200;1
+668;http://localhost:8888/joyeria/img/p/6/6/8/668.jpg;Collar;668;Raíz;187;336.6;200;1
+551;http://localhost:8888/joyeria/img/p/5/5/1/551.jpg;Gargantilla;551;Raíz;236;424.8;200;1
+14;http://localhost:8888/joyeria/img/p/1/4/14.jpg;Pulso tiffany placa;14;Mujer;0;0;200;1
+78;http://localhost:8888/joyeria/img/p/7/8/78.jpg;Pulso bvlgari eslabon clasico;78;Mujer;0;0;200;1
+576;http://localhost:8888/joyeria/img/p/5/7/6/576.jpg;Pulsera;576;Raíz;97;174.6;200;1
+145;http://localhost:8888/joyeria/img/p/1/4/5/145.jpg;Juego bvlgari flor;145;Mujer;0;0;200;1
+640;http://localhost:8888/joyeria/img/p/6/4/0/640.jpg;Collar;640;Raíz;177;318.6;200;1
+526;http://localhost:8888/joyeria/img/p/5/2/6/526.jpg;Gargantilla;526;Raíz;223;401.4;200;1
+53;http://localhost:8888/joyeria/img/p/5/3/53.jpg;Broquel tiffany dog;53;Mujer;0;0;200;1
+118;http://localhost:8888/joyeria/img/p/1/1/8/118.jpg;Pulso tiffany numeros romanos;118;Mujer;0;0;200;1
+615;http://localhost:8888/joyeria/img/p/6/1/5/615.jpg;Pulsera;615;Raíz;70;126;200;1
+501;http://localhost:8888/joyeria/img/p/5/0/1/501.jpg;Gargantilla;501;Raíz;199;358.2;200;1
+28;http://localhost:8888/joyeria/img/p/2/8/28.jpg;Pulso cartier con desarmador;28;Mujer;0;0;200;1
+93;http://localhost:8888/joyeria/img/p/9/3/93.jpg;Pulso tous delgado onix;93;Mujer;0;0;200;1
+590;http://localhost:8888/joyeria/img/p/5/9/0/590.jpg;Pulsera;590;Raíz;94;169.2;200;1
+159;http://localhost:8888/joyeria/img/p/1/5/9/159.jpg;Juego tiffany corazon;159;Mujer;0;0;200;1
+657;http://localhost:8888/joyeria/img/p/6/5/7/657.jpg;Collar;657;Raíz;283;509.4;200;1
+540;http://localhost:8888/joyeria/img/p/5/4/0/540.jpg;Gargantilla;540;Raíz;261;469.8;200;1
+67;http://localhost:8888/joyeria/img/p/6/7/67.jpg;Broquel bvlgari onix rueda saliente;67;Mujer;0;0;200;1
+565;http://localhost:8888/joyeria/img/p/5/6/5/565.jpg;Pulsera;565;Raíz;161;289.8;200;1
+132;http://localhost:8888/joyeria/img/p/1/3/2/132.jpg;Alianza mk con zirconias;132;Mujer;0;0;200;1
+629;http://localhost:8888/joyeria/img/p/6/2/9/629.jpg;Pulsera;629;Raíz;64;115.2;200;1
+515;http://localhost:8888/joyeria/img/p/5/1/5/515.jpg;Gargantilla;515;Raíz;213;383.4;200;1
+2;http://localhost:8888/joyeria/img/p/2/2.jpg;Pulso Tous;2;Mujer;0;0;200;1
+42;http://localhost:8888/joyeria/img/p/4/2/42.jpg;Juego mk cruz con zirconia;42;Mujer;0;0;200;1
+107;http://localhost:8888/joyeria/img/p/1/0/7/107.jpg;Juego cartier logo;107;Mujer;0;0;200;1
+604;http://localhost:8888/joyeria/img/p/6/0/4/604.jpg;Pulsera;604;Raíz;64;115.2;200;1
+490;http://localhost:8888/joyeria/img/p/4/9/0/490.jpg;Gargantilla;490;Raíz;257;462.6;200;1
+671;http://localhost:8888/joyeria/img/p/6/7/1/671.jpg;Collar;671;Raíz;276;496.8;200;1
+554;http://localhost:8888/joyeria/img/p/5/5/4/554.jpg;Gargantilla;554;Raíz;173;311.4;200;1
+17;http://localhost:8888/joyeria/img/p/1/7/17.jpg;Pulso cartier zirconia;17;Mujer;0;0;200;1
+81;http://localhost:8888/joyeria/img/p/8/1/81.jpg;Pulso mk tradicional;81;Mujer;0;0;200;1
+579;http://localhost:8888/joyeria/img/p/5/7/9/579.jpg;Pulsera;579;Raíz;81;145.8;200;1
+148;http://localhost:8888/joyeria/img/p/1/4/8/148.jpg;Juego bvlgari alianza;148;Mujer;0;0;200;1
+643;http://localhost:8888/joyeria/img/p/6/4/3/643.jpg;Collar;643;Raíz;252;453.6;200;1
+529;http://localhost:8888/joyeria/img/p/5/2/9/529.jpg;Gargantilla;529;Raíz;156;280.8;200;1
+504;http://localhost:8888/joyeria/img/p/5/0/4/504.jpg;Gargantilla;504;Raíz;193;347.4;200;1
+56;http://localhost:8888/joyeria/img/p/5/6/56.jpg;Broquel bvlgari rombo zirconia;56;Mujer;0;0;200;1
+121;http://localhost:8888/joyeria/img/p/1/2/1/121.jpg;Broquel bvlgari clasico 8mm;121;Mujer;0;0;200;1
+618;http://localhost:8888/joyeria/img/p/6/1/8/618.jpg;Pulsera;618;Raíz;97;174.6;200;1
+31;http://localhost:8888/joyeria/img/p/3/1/31.jpg;Juego cartier zirconia 3 argollas;31;Mujer;0;0;200;1
+96;http://localhost:8888/joyeria/img/p/9/6/96.jpg;Juego mk candado;96;Mujer;0;0;200;1
+593;http://localhost:8888/joyeria/img/p/5/9/3/593.jpg;Pulsera;593;Raíz;122;219.6;200;1
+162;http://localhost:8888/joyeria/img/p/1/6/2/162.jpg;Broquel tous clasico;162;Mujer;0;0;200;1
+660;http://localhost:8888/joyeria/img/p/6/6/0/660.jpg;Collar;660;Raíz;272;489.6;200;1
+543;http://localhost:8888/joyeria/img/p/5/4/3/543.jpg;Gargantilla;543;Raíz;297;534.6;200;1
+70;http://localhost:8888/joyeria/img/p/7/0/70.jpg;Juego channel trebol madre perla;70;Mujer;0;0;200;1
+568;http://localhost:8888/joyeria/img/p/5/6/8/568.jpg;Pulsera;568;Raíz;99;178.2;200;1
+135;http://localhost:8888/joyeria/img/p/1/3/5/135.jpg;Juego channel logo;135;Mujer;0;0;200;1
+632;http://localhost:8888/joyeria/img/p/6/3/2/632.jpg;Collar;632;Raíz;291;523.8;200;1
+518;http://localhost:8888/joyeria/img/p/5/1/8/518.jpg;Gargantilla;518;Raíz;250;450;200;1
+6;http://localhost:8888/joyeria/img/p/6/6.jpg;Pulso tiffany;6;Mujer;0;0;200;1
+45;http://localhost:8888/joyeria/img/p/4/5/45.jpg;Pulso piel acero ferragamo;45;Mujer;0;0;200;1
+110;http://localhost:8888/joyeria/img/p/1/1/0/110.jpg;Juego channel num. 5;110;Mujer;0;0;200;1
+607;http://localhost:8888/joyeria/img/p/6/0/7/607.jpg;Pulsera;607;Raíz;119;214.2;200;1
+493;http://localhost:8888/joyeria/img/p/4/9/3/493.jpg;Gargantilla;493;Raíz;226;406.8;200;1
+674;http://localhost:8888/joyeria/img/p/6/7/4/674.jpg;Collar;674;Raíz;263;473.4;200;1
+20;http://localhost:8888/joyeria/img/p/2/0/20.jpg;Pulso channel num. 5;20;Mujer;0;0;200;1
+85;http://localhost:8888/joyeria/img/p/8/5/85.jpg;Pulso bvlgari clasico zirconia;85;Mujer;0;0;200;1
+582;http://localhost:8888/joyeria/img/p/5/8/2/582.jpg;Pulsera;582;Raíz;69;124.2;200;1
+151;http://localhost:8888/joyeria/img/p/1/5/1/151.jpg;Juego bvlgari 2 circulos;151;Mujer;0;0;200;1
+649;http://localhost:8888/joyeria/img/p/6/4/9/649.jpg;Collar;649;Raíz;205;369;200;1
+532;http://localhost:8888/joyeria/img/p/5/3/2/532.jpg;Gargantilla;532;Raíz;187;336.6;200;1
+621;http://localhost:8888/joyeria/img/p/6/2/1/621.jpg;Pulsera;621;Raíz;101;181.8;200;1
+507;http://localhost:8888/joyeria/img/p/5/0/7/507.jpg;Gargantilla;507;Raíz;201;361.8;200;1
+59;http://localhost:8888/joyeria/img/p/5/9/59.jpg;Arracada cartier con esmalte;59;Mujer;0;0;200;1
+557;http://localhost:8888/joyeria/img/p/5/5/7/557.jpg;Pulsera;557;Raíz;79;142.2;200;1
+124;http://localhost:8888/joyeria/img/p/1/2/4/124.jpg;Arete trebol de channel;124;Mujer;0;0;200;1
+34;http://localhost:8888/joyeria/img/p/3/4/34.jpg;Juego bvlgari zirconia saliente;34;Mujer;0;0;200;1
+99;http://localhost:8888/joyeria/img/p/9/9/99.jpg;Juego bvlgari onix 3 cz;99;Mujer;0;0;200;1
+596;http://localhost:8888/joyeria/img/p/5/9/6/596.jpg;Pulsera;596;Raíz;83;149.4;200;1
+165;http://localhost:8888/joyeria/img/p/1/6/5/165.jpg;Juego channel cuadro;165;Mujer;0;0;200;1
+663;http://localhost:8888/joyeria/img/p/6/6/3/663.jpg;Collar;663;Raíz;619;1114.2;200;1
+546;http://localhost:8888/joyeria/img/p/5/4/6/546.jpg;Gargantilla;546;Raíz;125;225;200;1
+9;http://localhost:8888/joyeria/img/p/9/9.jpg;Juego bvlgari;9;Mujer;0;0;200;1
+73;http://localhost:8888/joyeria/img/p/7/3/73.jpg;Pulso mk placa;73;Mujer;0;0;200;1
+571;http://localhost:8888/joyeria/img/p/5/7/1/571.jpg;Pulsera;571;Raíz;133;239.4;200;1
+139;http://localhost:8888/joyeria/img/p/1/3/9/139.jpg;Anillo de cartier triangulo;139;Mujer;0;0;200;1
+635;http://localhost:8888/joyeria/img/p/6/3/5/635.jpg;Collar;635;Raíz;141;253.8;200;1
+521;http://localhost:8888/joyeria/img/p/5/2/1/521.jpg;Gargantilla;521;Raíz;156;280.8;200;1
+48;http://localhost:8888/joyeria/img/p/4/8/48.jpg;Pulso herradura ferragamo piel;48;Mujer;0;0;200;1
+113;http://localhost:8888/joyeria/img/p/1/1/3/113.jpg;Pulso clavo de cartier con pasta;113;Mujer;0;0;200;1
+610;http://localhost:8888/joyeria/img/p/6/1/0/610.jpg;Pulsera;610;Raíz;52;93.6;200;1
+496;http://localhost:8888/joyeria/img/p/4/9/6/496.jpg;Gargantilla;496;Raíz;244;439.2;200;1
+23;http://localhost:8888/joyeria/img/p/2/3/23.jpg;Arete largo channel num. 5;23;Mujer;0;0;200;1
+88;http://localhost:8888/joyeria/img/p/8/8/88.jpg;Pulso tous delgado madre perla;88;Mujer;0;0;200;1
+585;http://localhost:8888/joyeria/img/p/5/8/5/585.jpg;Pulsera;585;Raíz;117;210.6;200;1
+154;http://localhost:8888/joyeria/img/p/1/5/4/154.jpg;Juego tous espejo;154;Mujer;0;0;200;1
+652;http://localhost:8888/joyeria/img/p/6/5/2/652.jpg;Collar;652;Raíz;151;271.8;200;1
+535;http://localhost:8888/joyeria/img/p/5/3/5/535.jpg;Gargantilla;535;Raíz;188;338.4;200;1
+127;http://localhost:8888/joyeria/img/p/1/2/7/127.jpg;Broquel channel rombo;127;Mujer;0;0;200;1
+624;http://localhost:8888/joyeria/img/p/6/2/4/624.jpg;Pulsera;624;Raíz;88;158.4;200;1
+510;http://localhost:8888/joyeria/img/p/5/1/0/510.jpg;Gargantilla;510;Raíz;184;331.2;200;1
+62;http://localhost:8888/joyeria/img/p/6/2/62.jpg;Broquel cartier con esmalte cz;62;Mujer;0;0;200;1
+560;http://localhost:8888/joyeria/img/p/5/6/0/560.jpg;Pulsera;560;Raíz;73;131.4;200;1
+37;http://localhost:8888/joyeria/img/p/3/7/37.jpg;Juego gucci corazon;37;Mujer;0;0;200;1
+102;http://localhost:8888/joyeria/img/p/1/0/2/102.jpg;Juego bvlgari doble circulo;102;Mujer;0;0;200;1
+599;http://localhost:8888/joyeria/img/p/5/9/9/599.jpg;Pulsera;599;Raíz;82;147.6;200;1
+168;http://localhost:8888/joyeria/img/p/1/6/8/168.jpg;Broquel bvlagri zirconias colgante;168;Mujer;0;0;200;1
+666;http://localhost:8888/joyeria/img/p/6/6/6/666.jpg;Collar;666;Raíz;147;264.6;200;1
+549;http://localhost:8888/joyeria/img/p/5/4/9/549.jpg;Gargantilla;549;Raíz;205;369;200;1
+12;http://localhost:8888/joyeria/img/p/1/2/12.jpg;Pulso channel doble cz;12;Mujer;0;0;200;1
+76;http://localhost:8888/joyeria/img/p/7/6/76.jpg;Pulso tous cristal;76;Mujer;0;0;200;1
+574;http://localhost:8888/joyeria/img/p/5/7/4/574.jpg;Pulsera;574;Raíz;102;183.6;200;1
+143;http://localhost:8888/joyeria/img/p/1/4/3/143.jpg;Juego channel logo;143;Mujer;0;0;200;1
+638;http://localhost:8888/joyeria/img/p/6/3/8/638.jpg;Collar;638;Raíz;241;433.8;200;1
+524;http://localhost:8888/joyeria/img/p/5/2/4/524.jpg;Gargantilla;524;Raíz;88;158.4;200;1
+51;http://localhost:8888/joyeria/img/p/5/1/51.jpg;Pulso herradura ferragamo piel;51;Mujer;0;0;200;1
+116;http://localhost:8888/joyeria/img/p/1/1/6/116.jpg;Arracada cartier tornillo;116;Mujer;0;0;200;1
+613;http://localhost:8888/joyeria/img/p/6/1/3/613.jpg;Pulsera;613;Raíz;99;178.2;200;1
+499;http://localhost:8888/joyeria/img/p/4/9/9/499.jpg;Gargantilla;499;Raíz;114;205.2;200;1
+26;http://localhost:8888/joyeria/img/p/2/6/26.jpg;Broquel bvlgari clasico onix;26;Mujer;0;0;200;1
+91;http://localhost:8888/joyeria/img/p/9/1/91.jpg;Juego bvlgari zirconia;91;Mujer;0;0;200;1
+588;http://localhost:8888/joyeria/img/p/5/8/8/588.jpg;Pulsera;588;Raíz;177;318.6;200;1
+157;http://localhost:8888/joyeria/img/p/1/5/7/157.jpg;Juego channel perlas;157;Mujer;0;0;200;1
+655;http://localhost:8888/joyeria/img/p/6/5/5/655.jpg;Collar;655;Raíz;370;666;200;1
+538;http://localhost:8888/joyeria/img/p/5/3/8/538.jpg;Gargantilla;538;Raíz;199;358.2;200;1
+65;http://localhost:8888/joyeria/img/p/6/5/65.jpg;Juego mk;65;Mujer;0;0;200;1
+563;http://localhost:8888/joyeria/img/p/5/6/3/563.jpg;Pulsera;563;Raíz;113;203.4;200;1
+130;http://localhost:8888/joyeria/img/p/1/3/0/130.jpg;Anillo cartier zirconia colgante;130;Mujer;0;0;200;1
+627;http://localhost:8888/joyeria/img/p/6/2/7/627.jpg;Pulsera;627;Raíz;88;158.4;200;1
+513;http://localhost:8888/joyeria/img/p/5/1/3/513.jpg;Gargantilla;513;Raíz;204;367.2;200;1
+40;http://localhost:8888/joyeria/img/p/4/0/40.jpg;Juego tiffany argolla;40;Mujer;0;0;200;1
+105;http://localhost:8888/joyeria/img/p/1/0/5/105.jpg;Juego bvlgari baguette;105;Mujer;0;0;200;1
+602;http://localhost:8888/joyeria/img/p/6/0/2/602.jpg;Pulsera;602;Raíz;98;176.4;200;1
+488;http://localhost:8888/joyeria/img/p/4/8/8/488.jpg;Gargantilla;488;Raíz;295;531;200;1
+669;http://localhost:8888/joyeria/img/p/6/6/9/669.jpg;Collar;669;Raíz;244;439.2;200;1
+552;http://localhost:8888/joyeria/img/p/5/5/2/552.jpg;Gargantilla;552;Raíz;187;336.6;200;1
+15;http://localhost:8888/joyeria/img/p/1/5/15.jpg;Juego channel zirconia;15;Mujer;0;0;200;1
+79;http://localhost:8888/joyeria/img/p/7/9/79.jpg;Pulso mk cuadro zirconia madre perla;79;Mujer;0;0;200;1
+577;http://localhost:8888/joyeria/img/p/5/7/7/577.jpg;Pulsera;577;Raíz;90;162;200;1
+146;http://localhost:8888/joyeria/img/p/1/4/6/146.jpg;Juego mk placa;146;Mujer;0;0;200;1
+641;http://localhost:8888/joyeria/img/p/6/4/1/641.jpg;Collar;641;Raíz;181;325.8;200;1
+527;http://localhost:8888/joyeria/img/p/5/2/7/527.jpg;Gargantilla;527;Raíz;255;459;200;1
+54;http://localhost:8888/joyeria/img/p/5/4/54.jpg;Juego tous redondo;54;Mujer;0;0;200;1
+119;http://localhost:8888/joyeria/img/p/1/1/9/119.jpg;Juego cartier zirconia cambiante;119;Mujer;0;0;200;1
+616;http://localhost:8888/joyeria/img/p/6/1/6/616.jpg;Pulsera;616;Raíz;84;151.2;200;1
+502;http://localhost:8888/joyeria/img/p/5/0/2/502.jpg;Gargantilla;502;Raíz;260;468;200;1
+29;http://localhost:8888/joyeria/img/p/2/9/29.jpg;Arracada cartier con argolla;29;Mujer;0;0;200;1
+94;http://localhost:8888/joyeria/img/p/9/4/94.jpg;Anillo tornillo de cartier;94;Mujer;0;0;200;1
+591;http://localhost:8888/joyeria/img/p/5/9/1/591.jpg;Pulsera;591;Raíz;79;142.2;200;1
+160;http://localhost:8888/joyeria/img/p/1/6/0/160.jpg;Arete bvlgari clasico 12mm;160;Mujer;0;0;200;1
+658;http://localhost:8888/joyeria/img/p/6/5/8/658.jpg;Collar;658;Raíz;146;262.8;200;1
+541;http://localhost:8888/joyeria/img/p/5/4/1/541.jpg;Gargantilla;541;Raíz;160;288;200;1
+68;http://localhost:8888/joyeria/img/p/6/8/68.jpg;Juego channel oval onix;68;Mujer;0;0;200;1
+566;http://localhost:8888/joyeria/img/p/5/6/6/566.jpg;Pulsera;566;Raíz;80;144;200;1
+133;http://localhost:8888/joyeria/img/p/1/3/3/133.jpg;Juego tous corazon;133;Mujer;0;0;200;1
+630;http://localhost:8888/joyeria/img/p/6/3/0/630.jpg;Collar;630;Raíz;260;468;200;1
+516;http://localhost:8888/joyeria/img/p/5/1/6/516.jpg;Gargantilla;516;Raíz;260;468;200;1
+3;http://localhost:8888/joyeria/img/p/3/3.jpg;Pulso cartier;3;Mujer;0;0;200;1
+43;http://localhost:8888/joyeria/img/p/4/3/43.jpg;Media arracada cartier baguette;43;Mujer;0;0;200;1
+108;http://localhost:8888/joyeria/img/p/1/0/8/108.jpg;Juego bvulgari redondo zirconia;108;Mujer;0;0;200;1
+605;http://localhost:8888/joyeria/img/p/6/0/5/605.jpg;Pulsera;605;Raíz;57;102.6;200;1
+491;http://localhost:8888/joyeria/img/p/4/9/1/491.jpg;Gargantilla;491;Raíz;219;394.2;200;1
+672;http://localhost:8888/joyeria/img/p/6/7/2/672.jpg;Collar;672;Raíz;208;374.4;200;1
+555;http://localhost:8888/joyeria/img/p/5/5/5/555.jpg;Gargantilla;555;Raíz;291;523.8;200;1
+18;http://localhost:8888/joyeria/img/p/1/8/18.jpg;Pulso triple tiffany corazon;18;Mujer;0;0;200;1
+82;http://localhost:8888/joyeria/img/p/8/2/82.jpg;Juego bvlgari abanico;82;Mujer;0;0;200;1
+580;http://localhost:8888/joyeria/img/p/5/8/0/580.jpg;Pulsera;580;Raíz;67;120.6;200;1
+149;http://localhost:8888/joyeria/img/p/1/4/9/149.jpg;Juego tous 3 tous;149;Mujer;0;0;200;1
+647;http://localhost:8888/joyeria/img/p/6/4/7/647.jpg;Collar;647;Raíz;208;374.4;200;1
+530;http://localhost:8888/joyeria/img/p/5/3/0/530.jpg;Gargantilla;530;Raíz;270;486;200;1
+505;http://localhost:8888/joyeria/img/p/5/0/5/505.jpg;Gargantilla;505;Raíz;319;574.2;200;1
+57;http://localhost:8888/joyeria/img/p/5/7/57.jpg;Juego tous perla zirconia;57;Mujer;0;0;200;1
+122;http://localhost:8888/joyeria/img/p/1/2/2/122.jpg;Broquel bvlgari clasico 10mm;122;Mujer;0;0;200;1
+619;http://localhost:8888/joyeria/img/p/6/1/9/619.jpg;Pulsera;619;Raíz;110;198;200;1
+32;http://localhost:8888/joyeria/img/p/3/2/32.jpg;Anillo alianza channel;32;Mujer;0;0;200;1
+97;http://localhost:8888/joyeria/img/p/9/7/97.jpg;Juego bvlgari esposas;97;Mujer;0;0;200;1
+594;http://localhost:8888/joyeria/img/p/5/9/4/594.jpg;Pulsera;594;Raíz;120;216;200;1
+163;http://localhost:8888/joyeria/img/p/1/6/3/163.jpg;Broquel channel zirconia;163;Mujer;0;0;200;1
+661;http://localhost:8888/joyeria/img/p/6/6/1/661.jpg;Collar;661;Raíz;177;318.6;200;1
+544;http://localhost:8888/joyeria/img/p/5/4/4/544.jpg;Gargantilla;544;Raíz;236;424.8;200;1
+7;http://localhost:8888/joyeria/img/p/7/7.jpg;Pulso Tous;7;Mujer;0;0;200;1
+71;http://localhost:8888/joyeria/img/p/7/1/71.jpg;Juego cartier corazon onix;71;Mujer;0;0;200;1
+569;http://localhost:8888/joyeria/img/p/5/6/9/569.jpg;Pulsera;569;Raíz;64;115.2;200;1
+136;http://localhost:8888/joyeria/img/p/1/3/6/136.jpg;Juego mk onix y zirconias;136;Mujer;0;0;200;1
+633;http://localhost:8888/joyeria/img/p/6/3/3/633.jpg;Collar;633;Raíz;483;869.4;200;1
+519;http://localhost:8888/joyeria/img/p/5/1/9/519.jpg;Gargantilla;519;Raíz;112;201.6;200;1
+46;http://localhost:8888/joyeria/img/p/4/6/46.jpg;Pulso rolex eslabon clasico;46;Mujer;0;0;200;1
+111;http://localhost:8888/joyeria/img/p/1/1/1/111.jpg;Juego tous 3 osos;111;Mujer;0;0;200;1
+608;http://localhost:8888/joyeria/img/p/6/0/8/608.jpg;Pulsera;608;Raíz;109;196.2;200;1
+494;http://localhost:8888/joyeria/img/p/4/9/4/494.jpg;Gargantilla;494;Raíz;83;149.4;200;1
+675;http://localhost:8888/joyeria/img/p/6/7/5/675.jpg;Collar;675;Raíz;187;336.6;200;1
+21;http://localhost:8888/joyeria/img/p/2/1/21.jpg;Pulso doble tous;21;Mujer;0;0;200;1
+86;http://localhost:8888/joyeria/img/p/8/6/86.jpg;Pulso tiffany corazon zirconia;86;Mujer;0;0;200;1
+583;http://localhost:8888/joyeria/img/p/5/8/3/583.jpg;Pulsera;583;Raíz;77;138.6;200;1
+152;http://localhost:8888/joyeria/img/p/1/5/2/152.jpg;Juego bvlgari clasico zirconias;152;Mujer;0;0;200;1
+650;http://localhost:8888/joyeria/img/p/6/5/0/650.jpg;Collar;650;Raíz;249;448.2;200;1
+533;http://localhost:8888/joyeria/img/p/5/3/3/533.jpg;Gargantilla;533;Raíz;291;523.8;200;1
