@@ -101,7 +101,7 @@ while($row = mysqli_fetch_array($result))
 
         <td >
 	<input id="precio_<?=$id?>" type="text"  value="<?php
-                echo $row['price'];
+                echo number_format ($row['price'],2);
             ?>" disabled/>
         </td>
         <td><img width="200px" src="
