@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2174357641e780b4747-73489283',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5796743e08d1f8_12966042',
+  'unifunc' => 'content_57b3cdb16adc49_25702975',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5796743e08d1f8_12966042')) {function content_5796743e08d1f8_12966042($_smarty_tpl) {?><a href="./inicio-sesion" title="">
+<?php if ($_valid && !is_callable('content_57b3cdb16adc49_25702975')) {function content_57b3cdb16adc49_25702975($_smarty_tpl) {?><a href="./inicio-sesion" title="">
 	<img class="img-responsive" src="http://localhost:8888/joyeria/modules/blockbanner/img/sale70.png" alt="" title="" width="1170" height="65" />
 </a>
 <?php }} ?>

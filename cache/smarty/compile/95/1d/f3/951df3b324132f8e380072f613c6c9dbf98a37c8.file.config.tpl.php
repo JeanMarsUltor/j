@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-20 08:07:30
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-16 21:37:03
          compiled from "C:\xampp\htdocs\joyeria\modules\dashgoals\views\templates\hook\config.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:139635767ea92c5dc54-11332731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '951df3b324132f8e380072f613c6c9dbf98a37c8' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\modules\\dashgoals\\views\\templates\\hook\\config.tpl',
-      1 => 1460131478,
+      1 => 1464909918,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5767ea92cb79d4_13890049',
   'variables' => 
   array (
     'link' => 0,
@@ -24,8 +26,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'currency' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5767ea92cb79d4_13890049',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5767ea92cb79d4_13890049')) {function content_5767ea92cb79d4_13890049($_smarty_tpl) {?>
 <section id="dashgoals_config" class="dash_config hide">

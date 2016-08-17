@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1523457641e77d19106-46659542',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5796743dec1d14_37710051',
+  'unifunc' => 'content_57b3cdb015e055_48082906',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5796743dec1d14_37710051')) {function content_5796743dec1d14_37710051($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_57b3cdb015e055_48082906')) {function content_57b3cdb015e055_48082906($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://localhost:8888/joyeria/mi-cuenta" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a></h4>

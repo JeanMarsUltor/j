@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-20 08:07:31
+<?php /* Smarty version Smarty-3.1.19, created on 2016-08-16 21:37:03
          compiled from "C:\xampp\htdocs\joyeria\admin631gsbait\themes\default\template\controllers\dashboard\helpers\view\view.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:194945767ea930441d5-49119241%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3e274fbed6e506f0a144c5f4b7865fa850db81f5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\joyeria\\admin631gsbait\\themes\\default\\template\\controllers\\dashboard\\helpers\\view\\view.tpl',
-      1 => 1460131476,
+      1 => 1464909874,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5767ea931558d9_00899607',
   'variables' => 
   array (
     'link' => 0,
@@ -32,8 +34,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'new_version_url' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5767ea931558d9_00899607',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5767ea931558d9_00899607')) {function content_5767ea931558d9_00899607($_smarty_tpl) {?>
 <script>
