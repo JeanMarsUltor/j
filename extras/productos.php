@@ -4,18 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "silverzum";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+require "bd.php";
+ 
 //echo "Connected successfully";
 
 $num = ((isset($_GET["num"])?$_GET["num"]:50));
@@ -33,7 +23,7 @@ $result = mysqli_query($conn,"SELECT a.`id_product`, b.`name` AS `name`, `refere
 $count_t = mysqli_query($conn,"SELECT count(*) as count FROM `ps_product` a LEFT JOIN `ps_product_lang` b ON (b.`id_product` = a.`id_product` AND b.`id_lang` = 1 AND b.`id_shop` = 1) LEFT JOIN `ps_stock_available` sav ON (sav.`id_product` = a.`id_product` AND sav.`id_product_attribute` = 0 AND sav.id_shop = 1 AND sav.id_shop_group = 0 ) JOIN `ps_product_shop` sa ON (a.`id_product` = sa.`id_product` AND sa.id_shop = a.id_shop_default) LEFT JOIN `ps_category_lang` cl ON (sa.`id_category_default` = cl.`id_category` AND b.`id_lang` = cl.`id_lang` AND cl.id_shop = a.id_shop_default) LEFT JOIN `ps_shop` shop ON (shop.id_shop = a.id_shop_default) LEFT JOIN `ps_image_shop` image_shop ON (image_shop.`id_product` = a.`id_product` AND image_shop.`cover` = 1 AND image_shop.id_shop = a.id_shop_default) LEFT JOIN `ps_image` i ON (i.`id_image` = image_shop.`id_image`) LEFT JOIN `ps_product_download` pd ON (pd.`id_product` = a.`id_product`) WHERE 1 ORDER BY a.`id_product` ");
 
 $count = mysqli_fetch_array($count_t)['count'];
-$total = ceil ($count/$num);
+$total_pags = ceil ($count/$num);
 
 
 ?>
@@ -97,7 +87,7 @@ function num(o){
 		<label for="pagina">Página: </label>
 		<select name="pagina" class="paginador" onchange='goto(this)'>
 		  <?php
-			for($i=1;$i<$total;$i++){
+			for($i=1;$i<$total_pags;$i++){
 				echo "<option value='".$i."' ".($i==$current?"selected='selected'":"")." >".$i."</option>";			
 			}
 		  ?>
@@ -115,7 +105,7 @@ function num(o){
 		</select>
 </div>
 <div>
-Total de productos: <?=$total?>
+Total de productos: <?=$count?>
 </div>
 <div>
 <button onclick='todos()'>Guardar Todo</button>
