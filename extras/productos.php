@@ -31,10 +31,53 @@ $total_pags = ceil ($count/$num);
 <style>
 td{
 	
-    padding: 20px;
+    /*padding: 20px;*/
     text-align: center;
 }
 
+table{
+    width: 100%;
+    font-size: 24pt;
+}
+
+.header{
+    /*width: 100%;*/
+    height: 10%;
+    font-size: 27pt;
+    color: white;
+    background-color: rgb(78, 76, 76);
+    font-family: arial;
+    padding: 20px;
+}
+select{
+    /*width: 100%;
+    height: 10%;*/
+    font-size: 27pt;
+    color: rgb(20, 20, 20);
+    background-color: rgb(135, 135, 135);
+    font-family: arial;
+    padding: 2px;
+}
+
+th{
+	height:40px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 24pt;
+}
+
+button{
+    border-radius: 21px;
+    width: 25%;
+    height: 67px;
+    background-color: #84cf8f;
+    font-size: 20pt;
+    font-weight: bold;
+}
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
@@ -45,13 +88,13 @@ function enviar(id, precio) {
 	  url: "actualizar.php?id="+id+"&precio="+precio
 	}).done(function() {
 	  $( "#check_"+id ).prop('checked', false);
-	  habilitar(id);
+	  habilitar(id,false);
 	});
      }    
 }
 
-function habilitar(id){
-	$("#precio_"+id).prop('disabled', !$("#check_"+id).is(":checked"));
+function habilitar(id,flag){
+	$("#check_"+id).prop('checked', flag);
 }
 
 function todos(){
@@ -62,6 +105,7 @@ function todos(){
 		var precio = $("#precio_"+id).val();
 		enviar(id,precio);
 	}
+	alert("Los "+p.length+" productos de la página han sido guardados exitosamente");
 }
 
 function goto(o)
@@ -83,40 +127,44 @@ function num(o){
 <body>
 
 
-<div class="contain_pag">
-		<label for="pagina">Página: </label>
-		<select name="pagina" class="paginador" onchange='goto(this)'>
-		  <?php
-			for($i=1;$i<$total_pags;$i++){
-				echo "<option value='".$i."' ".($i==$current?"selected='selected'":"")." >".$i."</option>";			
-			}
-		  ?>
-		</select>
-		<label for="number">Elementos por página: </label>
-		<select name="number" class="number" onchange='num(this)'>
-		
-		  <?php
-			$array = [10,20,50,100];
-			for($i=0;$i<4;$i++){
-				echo "<option value='".$array[$i]."' ".($array[$i]==$num?"selected='selected'":"")." >".$array[$i]."</option>";			
-			}
-		  ?>
+<div class="header">
+	<div class="contain_pag">
+			<label for="pagina">Página: </label>
+			<select name="pagina" class="paginador" onchange='goto(this)'>
+			  <?php
+				for($i=1;$i<$total_pags;$i++){
+					echo "<option value='".$i."' ".($i==$current?"selected='selected'":"")." >".$i."</option>";			
+				}
+			  ?>
+			</select>
+			<label for="number">Elementos por página: </label>
+			<select name="number" class="number" onchange='num(this)'>
+			
+			  <?php
+				$array = [10,20,50,100];
+				for($i=0;$i<4;$i++){
+					echo "<option value='".$array[$i]."' ".($array[$i]==$num?"selected='selected'":"")." >".$array[$i]."</option>";			
+				}
+			  ?>
 
-		</select>
-</div>
-<div>
-Total de productos: <?=$count?>
-</div>
-<div>
-<button onclick='todos()'>Guardar Todo</button>
+			</select>
+	</div>
+	
+	<div>
+	Total de productos: <?=$count?>
+	</div>
+	<div>
+	<button onclick='todos()'>Guardar Todo</button>
+	</div>
+
 </div>
 
 
 <table border=1>
-    <th>
+    <th hidden="true">
     Editar
     </th>
-    <th>
+    <th hidden="true">
     ID
     </th>
     <th>
@@ -127,8 +175,6 @@ Total de productos: <?=$count?>
     </th>
     <th>
     Imagen
-    </th>
-    <th >
     </th>
 <?php
 function path($id){
@@ -146,11 +192,11 @@ while($row = mysqli_fetch_array($result))
 	$id=$row['id_product'];
     ?>
     <tr>
-        <td>
+        <td hidden="true">
              <input  id="check_<?=$id?>" value="<?=$id?>" type="checkbox" name="product" onclick="habilitar(<?=$id?>)"/>
         </td> 
         </td>
-        <td>
+        <td hidden="true">
             <?php
                 echo $id;
             ?>
@@ -162,17 +208,14 @@ while($row = mysqli_fetch_array($result))
         </td>
 
         <td >
-	<input id="precio_<?=$id?>" type="text"  value="<?php
+	<input id="precio_<?=$id?>" type="text" onfocus="habilitar(<?=$id?>,true)"  value="<?php
                 echo number_format ($row['price'],2);
-            ?>" disabled/>
+            ?>" />
         </td>
         <td><img width="200px" src="
             <?php
                 echo path($row['id_image']);
             ?>"/>
-        </td>
-        <td>
-            <button onclick="enviar(<?=$id?> , $('#precio_<?=$id?>').val())">Guardar</button>
         </td>
     </tr>
 <?php
@@ -182,6 +225,38 @@ while($row = mysqli_fetch_array($result))
 
 </table>
 
+
+<div class="header">
+	<div class="contain_pag">
+			<label for="pagina">Página: </label>
+			<select name="pagina" class="paginador" onchange='goto(this)'>
+			  <?php
+				for($i=1;$i<$total_pags;$i++){
+					echo "<option value='".$i."' ".($i==$current?"selected='selected'":"")." >".$i."</option>";			
+				}
+			  ?>
+			</select>
+			<label for="number">Elementos por página: </label>
+			<select name="number" class="number" onchange='num(this)'>
+			
+			  <?php
+				$array = [10,20,50,100];
+				for($i=0;$i<4;$i++){
+					echo "<option value='".$array[$i]."' ".($array[$i]==$num?"selected='selected'":"")." >".$array[$i]."</option>";			
+				}
+			  ?>
+
+			</select>
+	</div>
+	
+	<div>
+	Total de productos: <?=$count?>
+	</div>
+	<div>
+	<button onclick='todos()'>Guardar Todo</button>
+	</div>
+
+</div>
 
 
 </body>
