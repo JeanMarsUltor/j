@@ -42,7 +42,7 @@ table{
 
 .header{
     /*width: 100%;*/
-    height: 10%;
+    height: 175px;
     font-size: 27pt;
     color: white;
     background-color: rgb(78, 76, 76);
